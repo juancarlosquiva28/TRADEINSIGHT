@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.barrasup {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+}
+.btn-login {
+  background-color: #ff8c00;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+
+.btn-login:hover {
+  background-color: #e67600;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #0b2a5b;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+/* HERO SECTION */
+.seccion1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  gap: 60px;
+  background-color: #e5ecf5;
+}
+
+.seccion1-text {
+  width: 50%;
+}
+
+.seccion1-text h1 {
+  color: #0b2a5b;
+  font-size: 40px;
+  
+}
+
+.seccion1-text h2 {
+  color: #F88400;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.seccion1-text p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+.seccion1-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.seccion1-image img {
+  max-width: 85%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.seccion2 {
+  padding: 10px 40px;
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+}
+
+.seccion2 img {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.footer {
+  background-color: #062552;
+  color: white;
+  padding: 40px 30px 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-box {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-box h3,
+.footer-box h4 {
+  margin-bottom: 10px;
+}
+
+.footer-box p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer-box a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footer-box a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  padding-top: 15px;
+  font-size: 13px;
+}
+
+.footer-logo {
+  width: 200px; 
+  height: auto;
+  margin-bottom: 10px;
+}
