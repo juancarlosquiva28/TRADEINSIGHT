@@ -44,7 +44,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 40px;
-  gap: 60px;
+  gap: 10px;
   background-color: #e5ecf5;
 }
 
@@ -54,20 +54,21 @@ body {
 
 .seccion1-text h1 {
   color: #0b2a5b;
-  font-size: 40px;
+  font-size: 48px;
   
 }
 
 .seccion1-text h2 {
   color: #F88400;
-  font-size: 40px;
-  margin-bottom: 20px;
+  font-size: 45px;
+  margin-top: -15px;
 }
 
 .seccion1-text p {
   color: #333;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
+  margin-top: 15px;
 }
 
 
