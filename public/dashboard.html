@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | TradeScope</title>
+  <link rel="stylesheet" href="assets/styles/dashboard.css">
+  <script src="assets/scripts/dashboard.js"></script>
+</head>
+
+<body>
+
+  <aside class="sidebar">
+
+    <div class="logo">
+      <img src="assets/images/footerLogo.png" alt="TradeScope">
+    </div>
+
+    <nav class="sidebar-menu">
+      <a href="home.html" class="active">Inicio</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="#">Análisis</a>
+      <a href="#">Mercados</a>
+      <a href="recomendaciones.html">Recomendaciones</a>
+      <a href="#">Alertas</a>
+      <a href="#">Favoritos</a>
+      <a href="#">Reportes</a>
+      <a href="#">Perfil</a>
+      <a href="#">Configuración</a>
+      <a href="" class="logout">Cerrar Sesión</a>
+    </nav>
+
+  </aside>
+
+  <main class="dashboard">
+
+    <header class="topbar">
+
+      <h1>Dashboard</h1>
+
+      <div class="topbar-right">
+
+        <div class="notification">
+          🔔
+          <span class="dot"></span>
+        </div>
+
+        <div class="user">
+          <img src="assets/images/user.png" alt="User">
+          <div class="user-info">
+            <span class="name">Usuario</span>
+            <span class="role">Empresa</span>
+          </div>
+        </div>
+
+      </div>
+
+    </header>
+
+    <section class="cards">
+      <div class="card metric">
+        <img src="assets/images/mercados_activos.png" class="metric-img" alt="Mercados activos">
+        <div>
+          <p>Mercados activos</p>
+          <h2>12</h2>
+          <span>+2 vs. mes anterior</span>
+        </div>
+      </div>
+
+      <div class="card metric">
+        <img src="assets/images/oportunidades.png" class="metric-img" alt="Oportunidades">
+        <div>
+          <p>Oportunidades</p>
+          <h2>24</h2>
+          <span>+4 vs. mes anterior</span>
+        </div>
+      </div>
+      <div class="card metric">
+        <img src="assets/images/dinero.png" class="metric-img" alt="Costos estimados">
+        <div>
+          <p>Costos estimados</p>
+          <h2>S/ 12 000</h2>
+          <span>+8% vs. mes anterior</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid">
+
+      <div class="card tendencia-card" onclick="mostrarTendencias()">
+        <h3>Tendencia de exportaciones</h3>
+        <img src="assets/images/grafico-tendencias.png" class="chart-img" alt="Gráfico de tendencia">
+        <span class="ver-detalle">Ver tendencias →</span>
+      </div>
+
+      <div class="card">
+        <h3>Indicadores de riesgo</h3>
+
+        <div class="risk-grid">
+          <div class="risk">
+            <p>Riesgo político</p>
+            <img src="assets/images/escudo-medio.png" class="shield-img" alt="Riesgo medio">
+          </div>
+
+          <div class="risk">
+            <p>Riesgo económico</p>
+            <img src="assets/images/escudo-alto.png" class="shield-img" alt="Riesgo alto">
+          </div>
+
+          <div class="risk">
+            <p>Riesgo comercial</p>
+            <img src="assets/images/escudo-alto.png" class="shield-img" alt="Riesgo alto">
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Costos por categoría</h3>
+        <img src="assets/images/grafico-costo.png" class="chart-img" alt="Gráfico de costos">
+      </div>
+
+      <div class="card">
+        <h3>Top países con mayor potencial</h3>
+
+        <div class="country">
+          <span>Estados Unidos</span>
+          <div><b style="width:87%"></b></div>
+          <strong>87%</strong>
+        </div>
+
+        <div class="country">
+          <span>Alemania</span>
+          <div><b style="width:75%"></b></div>
+          <strong>75%</strong>
+        </div>
+
+        <div class="country">
+          <span>Brasil</span>
+          <div><b style="width:72%"></b></div>
+          <strong>72%</strong>
+        </div>
+
+        <div class="country">
+          <span>México</span>
+          <div><b style="width:68%"></b></div>
+          <strong>68%</strong>
+        </div>
+
+        <div class="country">
+          <span>China</span>
+          <div><b style="width:65%"></b></div>
+          <strong>65%</strong>
+        </div>
+      </div>
+
+    </section>
+    <section class="tendencias-detalle" id="tendenciasDetalle">
+
+      <div class="detalle-header">
+        <button onclick="cerrarTendencias()">←</button>
+        <div>
+          <h2>Tendencias</h2>
+          <p>Visualiza las tendencias de mercado por producto.</p>
+        </div>
+      </div>
+
+      <div class="tendencias-layout">
+
+        <div class="card tendencia-form">
+          <h3>Tendencias internacionales</h3>
+          <p>Visualiza las tendencias de mercado por producto.</p>
+
+          <label>Selecciona un producto</label>
+          <select>
+            <option>Seleccionar producto</option>
+            <option>Café en grano</option>
+            <option>Cacao</option>
+            <option>Quinua</option>
+          </select>
+
+          <div class="alert-box">
+            <span>!</span>
+            <p>Selecciona un producto para ver las tendencias internacionales.</p>
+          </div>
+
+          <button class="btn-consultar">Consultar</button>
+        </div>
+
+        <div class="card tendencia-result">
+          <h4>Producto: Café en grano</h4>
+          <small>Producto seleccionado</small>
+
+          <h3>Interés de búsqueda</h3>
+          <img src="assets/images/grafico-interes.png" alt="Interés de búsqueda">
+
+          <h3>Volumen de demanda (índice)</h3>
+          <img src="assets/images/grafico-demanda.png" alt="Volumen de demanda">
+
+          <h3>Principales países</h3>
+
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>País</th>
+                <th>Puntaje</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Estados Unidos</td>
+                <td>85</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Alemania</td>
+                <td>80</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>España</td>
+                <td>84</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>

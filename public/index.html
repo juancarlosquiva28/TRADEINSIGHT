@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <title>Landing Page</title>
@@ -7,27 +8,26 @@
 </head>
 
 <body>
-
-
   <header class="barrasup">
     <div class="logo">
-      <img src="logo.png" alt="Logo">
+      <img src="assets/images/logo.png" alt="Logo">
     </div>
 
     <nav class="menu">
       <a href="#">Inicio</a>
       <a href="nosotros.html">Nosotros</a>
       <a href="#">Beneficios</a>
-      <a href="#" class="btn-login">Iniciar sesión</a>
+      <button class="btn-login" type="button">Iniciar Sesión</button>
+    </nav>
   </header>
 
   <section class="seccion1">
-    
+
     <div class="seccion1-text">
       <h1>Insights que </h1>
       <h2>conectan mercados</h2>
       <p>
-        TRADESCOPE te brinda inteligencia de comercio internacional para identificar oportunidades, 
+        TRADESCOPE te brinda inteligencia de comercio internacional para identificar oportunidades,
         evaluar riesgos y tomer decisiones estratégicas con datos confiables y actualizados.
       </p>
     </div>
@@ -38,7 +38,7 @@
 
   </section>
 
-<section class="seccion2">
+  <section class="seccion2">
 
     <div class="s2-bloque">
       <h2 class="s2-titulo">Beneficios que impulsan tu negocio</h2>
@@ -125,7 +125,8 @@
     </div>
 
   </section>
-<section class="funcionalidades" id="funcionalidades">
+
+  <section class="funcionalidades" id="funcionalidades">
 
     <div class="funcionalidades-contenido">
 
@@ -209,45 +210,96 @@
       </div>
     </div>
   </section>
-<footer class="footer">
 
-  <div class="footer-content">
+  <footer class="footer">
 
-    <div class="footer-box">
-      <img src="logo.png" alt="TRADESCOPE logo" class="footer-logo">
-      <p>Inteligencia de comercio internacional 
-        para decisiones más inteligentes y seguras.</p>
-    </div>
+    <div class="footer-content">
 
-    <div class="footer-box">
-      <h4>Enlaces</h4>
-      <a href="#">Inicio</a>
-      <a href="#">Beneficios</a>
-      <a href="#">Iniciar sesión</a>
-    </div>
+      <div class="footer-box">
+        <img src="logo.png" alt="TRADESCOPE logo" class="footer-logo">
+        <p>Inteligencia de comercio internacional
+          para decisiones más inteligentes y seguras.</p>
+      </div>
 
-    <div class="footer-box">
-      <h4>Contacto</h4>
-      <p>soporte@tradescope.com</p>
-      <p>Lima, Perú</p>
-    </div>
-    <div class="footer-box">
+      <div class="footer-box">
+        <h4>Enlaces</h4>
+        <a href="#">Inicio</a>
+        <a href="#">Beneficios</a>
+        <a href="#">Iniciar sesión</a>
+      </div>
+
+      <div class="footer-box">
+        <h4>Contacto</h4>
+        <p>soporte@tradescope.com</p>
+        <p>Lima, Perú</p>
+      </div>
+      <div class="footer-box">
         <h4>Síguenos</h4>
         <div class="redes-sociales">
           <a href="https://www.instagram.com/" target="_blank">Instagram</a>
           <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
           <a href="https://www.facebook.com/" target="_blank">Facebook</a>
         </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 TRADESCOPE. Todos los derechos reservados.</p>
+    </div>
+
+  </footer>
+
+  <div id="loginModal" class="modal">
+
+    <div class="modal-content">
+
+      <span class="close-btn">&times;</span>
+      <h2>Iniciar Sesión</h2>
+
+        <form action="home.html">
+
+          <div class="input-group">
+            <label>Correo electrónico</label>
+            <input type="email" required>
+          </div>
+
+          <div class="input-group">
+            <label>Contraseña</label>
+            <input type="password" required>
+          </div>
+
+          <button type="submit" class="btn-submit">
+            Ingresar
+          </button>
+        </form>
+
+      <div class="separator">
+        <span>o</span>
+      </div>
+
+      <div class="social-login">
+
+        <button type="button" class="google-btn" onclick="window.location.href='home.html'">
+
+          <img src="assets/images/google.png" alt="Google">
+          Continuar con Google
+
+        </button>
+
+        <button type="button" class="apple-btn" onclick="window.location.href='home.html'">
+
+          <img src="assets/images/apple.png" alt="Apple">
+          Continuar con Apple
+        </button>
+      </div>
+
     </div>
   </div>
 
-  <div class="footer-bottom">
-    <p>© 2026 TRADESCOPE. Todos los derechos reservados.</p>
-  </div>
-
-</footer>
-
-
+  <script src="assets/scripts/loginModal.js"></script>
 
 </body>
+
+
+
 </html>
