@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alertas</title>
+    <link rel="stylesheet" href="../public/assets/styles/alertas.css">
+</head>
+
+<body>
+    <aside class="sidebar">
+
+        <div class="logo">
+            <img src="assets/images/footerLogo.png" alt="TradeScope">
+        </div>
+
+        <nav class="sidebar-menu">
+            <a href="home.html">Inicio</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="#">Análisis</a>
+            <a href="#">Mercados</a>
+            <a href="recomendaciones.html">Recomendaciones</a>
+            <a href="alertas.html" class="active">Alertas</a>
+            <a href="#">Favoritos</a>
+            <a href="#">Reportes</a>
+            <a href="#">Perfil</a>
+            <a href="#">Configuración</a>
+            <a href="" class="logout">Cerrar Sesión</a>
+        </nav>
+
+    </aside>
+
+    <main class="alertas-main">
+
+        <header class="topbar">
+            <div class="topbar-title">
+                <h1>Alertas</h1>
+                <p>Monitorea cambios comerciales, riesgos y recomendaciones preventivas.</p>
+            </div>
+
+            <div class="topbar-right">
+                <div class="notification">
+                🔔
+                <span class="dot"></span>
+                </div>
+
+                <div class="user">
+                <img src="assets/images/user.png" alt="User">
+
+                <div class="user-info">
+                    <span class="name">Usuario</span>
+                    <span class="role">Empresa</span>
+                </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="alertas-resumen">
+            <div class="resumen-card">
+                <h3>Alertas activas</h3>
+                <p>23</p>
+                <span>Pendientes de revisión</span>
+            </div>
+
+            <div class="resumen-card">
+                <h3>Riesgo alto</h3>
+                <p>8</p>
+                <span>Requieren atención inmediata</span>
+            </div>
+
+            <div class="resumen-card">
+                <h3>Riesgo medio</h3>
+                <p>10</p>
+                <span>Cambios importantes detectados</span>
+            </div>
+
+            <div class="resumen-card">
+                <h3>Riesgo bajo</h3>
+                <p>5</p>
+                <span>Alertas informativas</span>
+            </div>
+        </section>
+
+        <section class="alertas-filtros">
+            <div class="filtros-encabezado">
+                <h2>Filtrar alertas</h2>
+            </div>
+
+            <div class="filtros-contenido">
+                <input type="text" placeholder="Buscar producto">
+
+                <select>
+                    <option>País</option>
+                    <option>Estados Unidos</option>
+                    <option>Brasil</option>
+                    <option>México</option>
+                    <option>China</option>
+                </select>
+
+                <select>
+                    <option>Nivel de riesgo</option>
+                    <option>Alto</option>
+                    <option>Medio</option>
+                    <option>Bajo</option>
+                </select>
+
+                <select>
+                    <option>Estado</option>
+                    <option>Pendiente</option>
+                    <option>Revisada</option>
+                </select>
+
+                <input type="date">
+            </div>
+        </section>
+
+        <section class="alertas-contenido">
+
+            <div class="alertas-lista">
+
+                <div class="alertas-lista-encabezado">
+                    <h2>Alertas recientes</h2>
+                    <ul>
+                        <li>Todas</li>
+                        <li>Mercado</li>
+                        <li>Regulaciones</li>
+                        <li>Costos</li>
+                    </ul>
+                </div>
+
+                <div class="alerta-card alerta-alta">
+                    <div class="alerta-info">
+                        <h3>Nueva barrera comercial detectada</h3>
+                        <p>Brasil · Café · Riesgo alto</p>
+                        <span>Pendiente · Hace 2 horas</span>
+                    </div>
+                    <div class="alerta-accion">
+                        <button>Ver detalle</button>
+                    </div>
+                </div>
+
+                <div class="alerta-card alerta-media">
+                    <div class="alerta-info">
+                        <h3>Actualización de costos logísticos</h3>
+                        <p>China · Textiles · Riesgo medio</p>
+                        <span>Revisada · Ayer</span>
+                    </div>
+                    <div class="alerta-accion">
+                        <button>Ver detalle</button>
+                    </div>
+                </div>
+
+                <div class="alerta-card alerta-baja">
+                    <div class="alerta-info">
+                        <h3>Cambio en tratado comercial</h3>
+                        <p>México · Alimentos · Riesgo bajo</p>
+                        <span>Pendiente · Hace 3 días</span>
+                    </div>
+                    <div class="alerta-accion">
+                        <button>Ver detalle</button>
+                    </div>
+                </div>
+
+                <div class="alerta-card alerta-media">
+                    <div class="alerta-info">
+                        <h3>Variación en demanda internacional</h3>
+                        <p>Estados Unidos · Artesanías · Riesgo medio</p>
+                        <span>Pendiente · Hace 5 días</span>
+                    </div>
+                    <div class="alerta-accion">
+                        <button>Ver detalle</button>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="alerta-detalle">
+
+                <div class="detalle-card">
+                    <h2>Detalle de alerta</h2>
+
+                    <div class="detalle-estado">
+                        <span>Riesgo alto</span>
+                    </div>
+
+                    <h3>Nueva barrera comercial detectada</h3>
+
+                    <div class="detalle-datos">
+                        <p><strong>País:</strong> Brasil</p>
+                        <p><strong>Producto:</strong> Café</p>
+                        <p><strong>Fecha:</strong> 26/06/2026</p>
+                        <p><strong>Estado:</strong> Pendiente</p>
+                    </div>
+
+                    <div class="detalle-descripcion">
+                        <h4>Descripción</h4>
+                        <p>
+                        Se detectó una nueva regulación comercial que puede afectar el ingreso
+                        del producto al mercado seleccionado.
+                        </p>
+                    </div>
+
+                    <div class="detalle-recomendacion">
+                        <h4>Recomendación preventiva</h4>
+                        <p>
+                        Revisar los requisitos actualizados antes de continuar con el análisis
+                        comercial o comparar este mercado con otra alternativa.
+                        </p>
+                    </div>
+
+                    <div class="detalle-botones">
+                        <button>Marcar como revisada</button>
+                        <button>Ver mercado alternativo</button>
+                        <button>Generar reporte</button>
+                    </div>
+                </div>
+            </aside>
+        </section>
+
+        <section class="indicadores-riesgo">
+            <div class="indicadores-header">
+                <div>
+                <h2>Indicadores de riesgo</h2>
+                <p>Resumen de factores que influyen en las alertas comerciales.</p>
+                </div>
+
+                <a href="#" class="btn-indicadores">Ver todos los indicadores</a>
+            </div>
+
+            <div class="indicadores-contenido">
+
+                <div class="riesgo-mercado-card">
+                    <div class="riesgo-mercado-header">
+                        <div>
+                        <h3>Estados Unidos</h3>
+                        <p>Actualizado: 20 de mayo 2024, 11:03 am</p>
+                        </div>
+
+                        <span class="riesgo-badge riesgo-medio">Riesgo medio</span>
+                    </div>
+
+                    <div class="riesgo-nivel">
+                        <h4>Nivel de riesgo actual</h4>
+
+                        <div class="riesgo-barra">
+                            <div class="riesgo-barra-progreso">
+                            </div>
+                        </div>
+
+                            <div class="riesgo-etiquetas">
+                                <span>Bajo</span>
+                                <span>Medio</span>
+                                <span>Alto</span>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="indicadores-grid">
+                    <div class="indicador-item">
+                        <div>
+                        <h4>Estabilidad política</h4>
+                        <p>Situación estable del país.</p>
+                        </div>
+                        <span class="nivel medio">Medio</span>
+                    </div>
+
+                    <div class="indicador-item">
+                        <div>
+                        <h4>Riesgo económico</h4>
+                        <p>Variación moderada en costos.</p>
+                        </div>
+                        <span class="nivel medio">Medio</span>
+                    </div>
+
+                    <div class="indicador-item">
+                        <div>
+                        <h4>Riesgo regulatorio</h4>
+                        <p>Pocas restricciones nuevas.</p>
+                        </div>
+                        <span class="nivel bajo">Bajo</span>
+                    </div>
+
+                    <div class="indicador-item">
+                        <div>
+                        <h4>Riesgo comercial</h4>
+                        <p>Alta competencia en el mercado.</p>
+                        </div>
+                        <span class="nivel alto">Alto</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

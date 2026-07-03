@@ -120,6 +120,12 @@ body {
   padding: 34px 42px;
 }
 
+.alertas-main {
+  flex: 1;
+  padding: 34px 42px;
+}
+
+
 /* TOP CARDS */
 .cards {
   display: grid;
