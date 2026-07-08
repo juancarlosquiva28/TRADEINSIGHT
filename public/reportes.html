@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportes</title>
+    <link rel="stylesheet" href="../public/assets/styles/reportes.css">
+</head>
+
+<body>
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <img src="assets/images/footerLogo.png" alt="TradeScope">
+        </div>
+
+        <nav class="sidebar-menu">
+            <a href="home.html">Inicio</a>
+            <a href="analisisMercados.html">Análisis de Mercados</a>
+            <a href="recomendaciones.html">Recomendaciones</a>
+            <a href="alertas.html">Alertas</a>
+            <a href="#">Favoritos</a>
+            <a href="reportes.html" class="active">Reportes</a>
+            <a href="perfil.html">Perfil</a>
+            <a href="#">Configuración</a>
+            <a href="#" class="logout">Cerrar Sesión</a>
+        </nav>
+
+    </aside>
+
+    <main class="reportes-main">
+
+        <header class="topbar">
+
+            <div class="topbar-title">
+                <h1>Reportes</h1>
+                <p>Visualiza, organiza y descarga reportes de tus análisis comerciales.</p>
+            </div>
+
+            <div class="topbar-right">
+
+                <div class="notification">
+                    🔔
+                    <span class="dot"></span>
+                </div>
+
+                <div class="user">
+                    <img src="assets/images/user.png" alt="User">
+
+                    <div class="user-info">
+                        <span class="name">Usuario</span>
+                        <span class="role">Empresa</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </header>
+
+        <section class="reportes-content">
+
+            <section class="resumen-reportes">
+
+                <div class="resumen-card">
+                    <span>Reportes generados</span>
+                    <h3>12</h3>
+                    <p>Durante el último mes.</p>
+                </div>
+
+                <div class="resumen-card">
+                    <span>Último análisis</span>
+                    <h3>Café en grano</h3>
+                    <p>Mercado: Estados Unidos.</p>
+                </div>
+
+                <div class="resumen-card">
+                    <span>Formato disponible</span>
+                    <h3>PDF</h3>
+                    <p>Reporte listo para descargar.</p>
+                </div>
+
+            </section>
+
+            <section class="card reporte-destacado-section">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Reporte destacado</h2>
+                        <p>Vista previa del último reporte generado por la plataforma.</p>
+                    </div>
+
+                    <button class="btn-principal">Descargar reporte</button>
+                </div>
+
+                <div class="reporte-destacado">
+
+                    <div class="reporte-info">
+                        <span class="etiqueta">Reporte comercial</span>
+                        <h3>Café en grano - Estados Unidos</h3>
+                        <p>
+                            El análisis muestra una oportunidad favorable para la exportación de café en grano.
+                            El mercado presenta demanda alta, dificultad media y costos moderados.
+                        </p>
+                    </div>
+
+                    <div class="reporte-datos">
+
+                        <div class="dato-item">
+                            <span>Producto</span>
+                            <strong>Café en grano</strong>
+                        </div>
+
+                        <div class="dato-item">
+                            <span>Mercado</span>
+                            <strong>Estados Unidos</strong>
+                        </div>
+
+                        <div class="dato-item">
+                            <span>Demanda</span>
+                            <strong>Alta</strong>
+                        </div>
+
+                        <div class="dato-item">
+                            <span>Dificultad</span>
+                            <strong>Media</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="card filtros-reportes">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Buscar reportes</h2>
+                        <p>Filtra tus reportes por producto, país o tipo de análisis.</p>
+                    </div>
+                </div>
+
+                <div class="filtros-body">
+
+                    <input type="text" placeholder="Buscar producto">
+
+                    <select>
+                        <option>Tipo de reporte</option>
+                        <option>Análisis completo</option>
+                        <option>Comparación</option>
+                        <option>Tendencias</option>
+                    </select>
+
+                    <select>
+                        <option>País</option>
+                        <option>Estados Unidos</option>
+                        <option>Canadá</option>
+                        <option>Chile</option>
+                    </select>
+
+                    <input type="date">
+
+                    <button class="btn-principal">Buscar</button>
+
+                </div>
+
+            </section>
+
+            <section class="card lista-reportes-section">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Reportes recientes</h2>
+                        <p>Últimos reportes generados dentro de TradeScope.</p>
+                    </div>
+                </div>
+
+                <div class="reportes-lista">
+
+                    <article class="reporte-item reporte-activo">
+
+                        <div class="reporte-icono">📄</div>
+
+                        <div class="reporte-texto">
+                            <h3>Café en grano</h3>
+                            <p>Estados Unidos · Análisis completo</p>
+                            <span>Generado hoy, 9:00 AM</span>
+                        </div>
+
+                        <div class="reporte-acciones">
+                            <button>Ver</button>
+                            <button>Descargar</button>
+                        </div>
+
+                    </article>
+
+                    <article class="reporte-item">
+
+                        <div class="reporte-icono">📊</div>
+
+                        <div class="reporte-texto">
+                            <h3>Textiles artesanales</h3>
+                            <p>Chile · Comparación de mercados</p>
+                            <span>Generado ayer, 6:30 PM</span>
+                        </div>
+
+                        <div class="reporte-acciones">
+                            <button>Ver</button>
+                            <button>Descargar</button>
+                        </div>
+
+                    </article>
+
+                    <article class="reporte-item">
+
+                        <div class="reporte-icono">📈</div>
+
+                        <div class="reporte-texto">
+                            <h3>Baterías portátiles</h3>
+                            <p>Canadá · Tendencias del mercado</p>
+                            <span>Generado hace 2 días</span>
+                        </div>
+
+                        <div class="reporte-acciones">
+                            <button>Ver</button>
+                            <button>Descargar</button>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+            <section class="card contenido-reporte-section">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Contenido incluido en el reporte</h2>
+                        <p>Elementos principales que forman parte del documento final.</p>
+                    </div>
+                </div>
+
+                <div class="contenido-reporte">
+
+                    <article class="contenido-card">
+                        <h3>Resumen estratégico</h3>
+                        <p>Conclusión general sobre la oportunidad comercial detectada.</p>
+                    </article>
+
+                    <article class="contenido-card">
+                        <h3>Indicadores del mercado</h3>
+                        <p>Demanda, costos, dificultad, riesgos y barreras comerciales.</p>
+                    </article>
+
+                    <article class="contenido-card">
+                        <h3>Comparaciones visuales</h3>
+                        <p>Relación entre países y posición del mercado recomendado.</p>
+                    </article>
+
+                    <article class="contenido-card">
+                        <h3>Recomendación final</h3>
+                        <p>Sugerencia para continuar, comparar o revisar el mercado.</p>
+                    </article>
+
+                </div>
+
+            </section>
+
+            <section class="card acciones-finales">
+
+                <div>
+                    <h2>Acciones disponibles</h2>
+                    <p>Continúa revisando el análisis o descarga el reporte final.</p>
+                </div>
+
+                <div class="botones-finales">
+                    <a href="analisisMercados.html" class="btn-secundario">Volver al análisis</a>
+                    <a href="comparaciones.html" class="btn-secundario">Ver comparación</a>
+                    <a href="#" class="btn-principal">Descargar PDF</a>
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
+</html>

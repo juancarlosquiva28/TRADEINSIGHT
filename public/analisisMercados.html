@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Mercados</title>
+    <link rel="stylesheet" href="../public/assets/styles/analisisMercados.css">
+</head>
+
+<body>
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <img src="assets/images/footerLogo.png" alt="TradeScope">
+        </div>
+
+            <a href="home.html">Inicio</a>
+            <a href="analisisMercados.html" class="active">Análisis de Mercados</a>
+            <a href="recomendaciones.html">Recomendaciones</a>
+            <a href="alertas.html">Alertas</a>
+            <a href="#">Favoritos</a>
+            <a href="reportes.html">Reportes</a>
+            <a href="perfil.html">Perfil</a>
+            <a href="#">Configuración</a>
+            <a href="" class="logout">Cerrar Sesión</a>
+        </nav>
+
+    </aside>
+
+    <main class="analisis-main">
+
+        <header class="topbar">
+            <div class="topbar-title">
+                <h1>Análisis de Mercados</h1>
+                <p>Evalúa países, productos, costos, tratados y oportunidades comerciales.</p>
+            </div>
+
+            <div class="topbar-right">
+                <div class="notification">
+                    🔔
+                    <span class="dot"></span>
+                </div>
+
+                <div class="user">
+                    <img src="assets/images/user.png" alt="User">
+
+                    <div class="user-info">
+                        <span class="name">Usuario</span>
+                        <span class="role">Empresa</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="analisis-content">
+
+            <section class="busqueda-principal section-card">
+
+                <div class="busqueda-texto">
+                    <h2>Buscar oportunidad comercial</h2>
+                    <p>Selecciona un producto, país o tipo de operación para iniciar el análisis.</p>
+                </div>
+
+                <div class="busqueda-form">
+
+                    <div class="campo-busqueda">
+                        <label>Producto</label>
+                        <input type="text" placeholder="Ejemplo: café en grano">
+                    </div>
+
+                    <div class="campo-busqueda">
+                        <label>País de destino</label>
+                        <input type="text" placeholder="Ejemplo: Estados Unidos">
+                    </div>
+
+                    <div class="tipo-operacion">
+                        <button class="tipo-activo">Exportación</button>
+                        <button>Importación</button>
+                    </div>
+
+                    <button class="btn-principal">Generar análisis</button>
+
+                </div>
+
+            </section>
+
+            <section class="resumen-grid">
+
+                <div class="resumen-card">
+                    <span>Producto</span>
+                    <h3>Café en grano</h3>
+                    <p>Producto seleccionado para el análisis.</p>
+                </div>
+
+                <div class="resumen-card">
+                    <span>Mercado sugerido</span>
+                    <h3>Estados Unidos</h3>
+                    <p>Mayor oportunidad comercial detectada.</p>
+                </div>
+
+                <div class="resumen-card">
+                    <span>Demanda</span>
+                    <h3>Alta</h3>
+                    <p>Interés favorable del mercado.</p>
+                </div>
+
+                <div class="resumen-card">
+                    <span>Dificultad</span>
+                    <h3>Media</h3>
+                    <p>Requiere revisar requisitos comerciales.</p>
+                </div>
+
+                <div class="resumen-card">
+                    <span>Costo estimado</span>
+                    <h3>US$ 2,840</h3>
+                    <p>Estimación inicial por tonelada.</p>
+                </div>
+
+            </section>
+
+            <section class="acciones-section section-card">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Accesos principales del análisis</h2>
+                        <p>Revisa cada parte del análisis en páginas específicas.</p>
+                    </div>
+                </div>
+
+                <div class="acciones-grid">
+
+                    <a href="detalleMercado.html#regulaciones" class="accion-card">
+                        <div class="accion-icono">📄</div>
+                        <h3>Regulaciones internacionales</h3>
+                        <p>Consulta requisitos comerciales y restricciones por país.</p>
+                    </a>
+
+                    <a href="detalleMercado.html#tratados" class="accion-card">
+                        <div class="accion-icono">🌐</div>
+                        <h3>Tratados comerciales</h3>
+                        <p>Visualiza acuerdos y beneficios comerciales aplicables.</p>
+                    </a>
+
+                    <a href="detalleMercado.html#costos" class="accion-card">
+                        <div class="accion-icono">💰</div>
+                        <h3>Análisis de costos</h3>
+                        <p>Revisa costos logísticos, operacionales y comerciales.</p>
+                    </a>
+
+                    <a href="detalleMercado.html#dificultad" class="accion-card">
+                        <div class="accion-icono">⚠️</div>
+                        <h3>Dificultad de mercado</h3>
+                        <p>Evalúa si un mercado es bajo, medio o alto en dificultad.</p>
+                    </a>
+
+                    <a href="comparaciones.html" class="accion-card">
+                        <div class="accion-icono">📊</div>
+                        <h3>Comparar mercados</h3>
+                        <p>Compara países según demanda, costo, riesgo y dificultad.</p>
+                    </a>
+
+                    <a href="tendencias.html" class="accion-card">
+                        <div class="accion-icono">📈</div>
+                        <h3>Tendencias</h3>
+                        <p>Visualiza crecimiento, interés de búsqueda y países destacados.</p>
+                    </a>
+
+                    <a href="comparaciones.html#ranking" class="accion-card">
+                        <div class="accion-icono">🏆</div>
+                        <h3>Ranking de mercados</h3>
+                        <p>Ordena países según el puntaje obtenido en el análisis.</p>
+                    </a>
+
+                    <a href="comparaciones.html#barreras" class="accion-card">
+                        <div class="accion-icono">🚧</div>
+                        <h3>Comparación de barreras</h3>
+                        <p>Compara barreras comerciales entre dos o más países.</p>
+                    </a>
+
+                    <a href="reportes.html" class="accion-card">
+                        <div class="accion-icono">📑</div>
+                        <h3>Reportes</h3>
+                        <p>Genera, visualiza o descarga reportes del análisis.</p>
+                    </a>
+
+                </div>
+
+            </section>
+
+            <section class="mercados-section section-card">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Mercados encontrados</h2>
+                        <p>Vista rápida de los países con mayor relación al producto seleccionado.</p>
+                    </div>
+
+                    <a href="comparaciones.html" class="btn-secundario">Comparar mercados</a>
+                </div>
+
+                <div class="mercados-grid">
+
+                    <article class="mercado-card mercado-activo">
+                        <div class="mercado-header">
+                            <h3>Estados Unidos</h3>
+                            <span>Top 1</span>
+                        </div>
+
+                        <p>Alta demanda de café de especialidad y barreras comerciales moderadas.</p>
+
+                        <div class="mercado-datos">
+                            <div>
+                                <span>Demanda</span>
+                                <strong>Alta</strong>
+                            </div>
+
+                            <div>
+                                <span>Arancel</span>
+                                <strong>0%</strong>
+                            </div>
+
+                            <div>
+                                <span>Dificultad</span>
+                                <strong>Media</strong>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="mercado-card">
+                        <div class="mercado-header">
+                            <h3>Chile</h3>
+                            <span>Top 2</span>
+                        </div>
+
+                        <p>Mercado cercano con tratados comerciales y menor complejidad logística.</p>
+
+                        <div class="mercado-datos">
+                            <div>
+                                <span>Demanda</span>
+                                <strong>Media</strong>
+                            </div>
+
+                            <div>
+                                <span>Arancel</span>
+                                <strong>Bajo</strong>
+                            </div>
+
+                            <div>
+                                <span>Dificultad</span>
+                                <strong>Baja</strong>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="mercado-card">
+                        <div class="mercado-header">
+                            <h3>México</h3>
+                            <span>Top 3</span>
+                        </div>
+
+                        <p>Mercado con oportunidades regionales y crecimiento estable.</p>
+
+                        <div class="mercado-datos">
+                            <div>
+                                <span>Demanda</span>
+                                <strong>Media</strong>
+                            </div>
+
+                            <div>
+                                <span>Arancel</span>
+                                <strong>Medio</strong>
+                            </div>
+
+                            <div>
+                                <span>Dificultad</span>
+                                <strong>Media</strong>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+            </section>
+
+            <section class="doble-section">
+
+                <section class="comparacion-preview section-card">
+
+                    <div class="section-header simple">
+                        <div>
+                            <h2>Comparación rápida</h2>
+                            <p>Resumen comparativo de los mercados principales.</p>
+                        </div>
+                    </div>
+
+                    <div class="tabla-comparacion">
+
+                        <div class="tabla-row tabla-head">
+                            <span>País</span>
+                            <span>Demanda</span>
+                            <span>Costo</span>
+                            <span>Dificultad</span>
+                        </div>
+
+                        <div class="tabla-row">
+                            <span>Estados Unidos</span>
+                            <span>Alta</span>
+                            <span>US$ 2,840</span>
+                            <span>Media</span>
+                        </div>
+
+                        <div class="tabla-row">
+                            <span>Chile</span>
+                            <span>Media</span>
+                            <span>US$ 1,600</span>
+                            <span>Baja</span>
+                        </div>
+
+                        <div class="tabla-row">
+                            <span>México</span>
+                            <span>Media</span>
+                            <span>US$ 1,900</span>
+                            <span>Media</span>
+                        </div>
+
+                    </div>
+
+                    <a href="comparaciones.html" class="btn-secundario">Ver comparación completa</a>
+
+                </section>
+
+                <section class="tendencias-preview section-card">
+
+                    <div class="section-header simple">
+                        <div>
+                            <h2>Tendencias</h2>
+                            <p>Vista previa del comportamiento del producto.</p>
+                        </div>
+                    </div>
+
+                    <div class="grafico-barras">
+                        <div class="barra barra-1"></div>
+                        <div class="barra barra-2"></div>
+                        <div class="barra barra-3"></div>
+                        <div class="barra barra-4"></div>
+                    </div>
+
+                    <p class="texto-preview">
+                        El interés por el producto mantiene crecimiento en mercados de Norteamérica.
+                    </p>
+
+                    <a href="tendencias.html" class="btn-secundario">Ver tendencias completas</a>
+
+                </section>
+
+            </section>
+
+            <section class="detalle-preview section-card">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Detalle del mercado seleccionado</h2>
+                        <p>Resumen del país con mayor oportunidad comercial.</p>
+                    </div>
+
+                    <a href="detalleMercado.html" class="btn-secundario">Ver detalle completo</a>
+                </div>
+
+                <div class="detalle-grid">
+
+                    <div class="detalle-card">
+                        <h3>Regulaciones</h3>
+                        <p>Requiere certificación sanitaria, documentos de origen y validación comercial.</p>
+                    </div>
+
+                    <div class="detalle-card">
+                        <h3>Tratados comerciales</h3>
+                        <p>Existen acuerdos que facilitan el comercio y reducen posibles barreras.</p>
+                    </div>
+
+                    <div class="detalle-card">
+                        <h3>Barreras comerciales</h3>
+                        <p>El mercado presenta exigencias técnicas y logísticas moderadas.</p>
+                    </div>
+
+                    <div class="detalle-card">
+                        <h3>Costos por categoría</h3>
+                        <p>Incluye transporte, documentación, almacenamiento y operación.</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="reporte-preview section-card">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Reporte del análisis</h2>
+                        <p>Prepara un reporte con los datos obtenidos del análisis actual.</p>
+                    </div>
+
+                    <a href="reportes.html" class="btn-principal">Ver reportes</a>
+                </div>
+
+                <div class="reporte-layout">
+
+                    <div class="reporte-box">
+                        <h3>Resumen del análisis</h3>
+                        <p>
+                            El mercado con mejor oportunidad para café en grano es Estados Unidos.
+                            Presenta demanda alta, dificultad media y costos aproximados de exportación.
+                        </p>
+                    </div>
+
+                    <div class="reporte-box">
+                        <h3>Vista previa del reporte</h3>
+
+                        <div class="reporte-datos">
+                            <span>Producto: Café en grano</span>
+                            <span>País recomendado: Estados Unidos</span>
+                            <span>Formato: PDF</span>
+                            <span>Estado: Listo para exportar</span>
+                        </div>
+                    </div>
+
+                    <div class="reporte-actions">
+                        <a href="reportes.html" class="btn-principal">Exportar reporte</a>
+                        <a href="perfil.html#historial" class="btn-secundario">Ver historial en perfil</a>
+                    </div>
+
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>

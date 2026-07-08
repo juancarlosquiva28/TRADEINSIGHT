@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,21 +12,19 @@
     <aside class="sidebar">
 
         <div class="logo">
-        <img src="assets/images/footerLogo.png" alt="TradeScope">
+            <img src="assets/images/footerLogo.png" alt="TradeScope">
         </div>
 
         <nav class="sidebar-menu">
-        <a href="home.html">Inicio</a>
-        <a href="dashboard.html">Dashboard</a>
-        <a href="#">Análisis</a>
-        <a href="#">Mercados</a>
-        <a href="recomendaciones.html">Recomendaciones</a>
-        <a href="alertas.html">Alertas</a>
-        <a href="#">Favoritos</a>
-        <a href="#">Reportes</a>
-        <a href="perfil.html" class="active">Perfil</a>
-        <a href="#">Configuración</a>
-        <a href="" class="logout">Cerrar Sesión</a>
+            <a href="home.html">Inicio</a>
+            <a href="analisisMercados.html">Análisis de Mercados</a>
+            <a href="recomendaciones.html">Recomendaciones</a>
+            <a href="alertas.html">Alertas</a>
+            <a href="#">Favoritos</a>
+            <a href="reportes.html">Reportes</a>
+            <a href="perfil.html" class="active">Perfil</a>
+            <a href="#">Configuración</a>
+            <a href="" class="logout">Cerrar Sesión</a>
         </nav>
 
     </aside>
@@ -33,337 +32,330 @@
     <main class="perfil-main">
 
         <header class="topbar">
-        <div class="topbar-title">
-            <h1>Perfil</h1>
-            <p>Gestiona tus preferencias, historial, seguridad y soporte dentro de TradeScope.</p>
-        </div>
-
-        <div class="topbar-right">
-            <div class="notification">
-            🔔
-            <span class="dot"></span>
+            <div class="topbar-title">
+                <h1>Perfil</h1>
+                <p>Gestiona tus preferencias, historial, seguridad y soporte dentro de TradeScope.</p>
             </div>
 
-            <div class="user">
-            <img src="assets/images/user.png" alt="User">
+            <div class="topbar-right">
+                <div class="notification">
+                    🔔
+                    <span class="dot"></span>
+                </div>
 
-            <div class="user-info">
-                <span class="name">Usuario</span>
-                <span class="role">Empresa</span>
+                <div class="user">
+                    <img src="assets/images/user.png" alt="User">
+
+                    <div class="user-info">
+                        <span class="name">Usuario</span>
+                        <span class="role">Empresa</span>
+                    </div>
+                </div>
             </div>
-            </div>
-        </div>
         </header>
 
         <section class="perfil-layout">
 
-        <aside class="perfil-menu">
+            <aside class="perfil-menu">
 
-            <div class="perfil-mini-user">
-            <div class="perfil-avatar"></div>
+                <div class="perfil-mini-user">
+                    <div class="perfil-avatar"></div>
 
-            <div>
-                <h3>José Carlos Núñez Vargas</h3>
-                <p>Correo@example.com</p>
-            </div>
-            </div>
-
-            <nav class="perfil-opciones">
-            <a href="#preferencias" class="perfil-opcion-activa">Preferencias comerciales</a>
-            <a href="#historial">Historial</a>
-            <a href="#seguridad">Privacidad y seguridad</a>
-            <a href="#ayuda">Ayuda y soporte</a>
-            </nav>
-
-        </aside>
-
-        <section class="perfil-content">
-
-            <section id="preferencias" class="perfil-section preferencias-section">
-
-            <div class="section-header">
-                <div>
-                <h2>Preferencias comerciales</h2>
-                <p>Selecciona tus intereses para recibir recomendaciones más relevantes.</p>
+                    <div>
+                        <h3>José Carlos Núñez Vargas</h3>
+                        <p>Correo@example.com</p>
+                    </div>
                 </div>
 
-                <button class="btn-principal">Guardar preferencias</button>
-            </div>
+                <nav class="perfil-opciones">
+                    <a href="#preferencias" class="perfil-opcion-activa">Preferencias comerciales</a>
+                    <a href="#historial">Historial</a>
+                    <a href="#seguridad">Privacidad y seguridad</a>
+                    <a href="#ayuda">Ayuda y soporte</a>
+                </nav>
 
-            <div class="preferencias-body">
+            </aside>
 
-                <div class="preferencias-form">
+            <section class="perfil-content">
 
-                <label>Buscar categoría</label>
-                <input type="text" placeholder="Buscar categorías">
+                <section id="preferencias" class="perfil-section preferencias-section">
 
-                <h3>Categorías populares</h3>
+                    <div class="section-header">
+                        <div>
+                            <h2>Preferencias comerciales</h2>
+                            <p>Selecciona tus intereses para recibir recomendaciones más relevantes.</p>
+                        </div>
 
-                <div class="categorias-grid">
-                    <button class="categoria categoria-activa">Tecnología</button>
-                    <button class="categoria categoria-activa">Hogar</button>
-                    <button class="categoria">Moda</button>
-                    <button class="categoria">Salud</button>
-                    <button class="categoria categoria-activa">Deportes</button>
-                    <button class="categoria categoria-activa">Videojuegos</button>
-                    <button class="categoria">Libros</button>
-                    <button class="categoria">Automotriz</button>
-                </div>
+                        <button class="btn-principal">Guardar preferencias</button>
+                    </div>
 
-                </div>
+                    <div class="preferencias-body">
 
-                <div class="experiencia-card">
-                <h3>Nivel de experiencia</h3>
-                <p>Personaliza el nivel de explicación que recibirás en tus recomendaciones.</p>
+                        <div class="preferencias-form">
 
-                <div class="experiencia-opciones">
-                    <button class="experiencia-activa">Principiante</button>
-                    <button>Intermedio</button>
-                    <button>Avanzado</button>
-                </div>
+                            <label>Buscar categoría</label>
+                            <input type="text" placeholder="Buscar categorías">
 
-                <div class="experiencia-mensaje">
-                    <span>💡</span>
-                    <p>Mostraremos información simple y clara para que entiendas cada paso.</p>
-                </div>
-                </div>
+                            <h3>Categorías populares</h3>
 
-            </div>
+                            <div class="categorias-grid">
+                                <button class="categoria categoria-activa">Tecnología</button>
+                                <button class="categoria categoria-activa">Hogar</button>
+                                <button class="categoria">Moda</button>
+                                <button class="categoria">Salud</button>
+                                <button class="categoria categoria-activa">Deportes</button>
+                                <button class="categoria categoria-activa">Videojuegos</button>
+                                <button class="categoria">Libros</button>
+                                <button class="categoria">Automotriz</button>
+                            </div>
+
+                        </div>
+
+                        <div class="experiencia-card">
+                            <h3>Nivel de experiencia</h3>
+                            <p>Personaliza el nivel de explicación que recibirás en tus recomendaciones.</p>
+
+                            <div class="experiencia-opciones">
+                                <button class="experiencia-activa">Principiante</button>
+                                <button>Intermedio</button>
+                                <button>Avanzado</button>
+                            </div>
+
+                            <div class="experiencia-mensaje">
+                                <span>💡</span>
+                                <p>Mostraremos información simple y clara para que entiendas cada paso.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section id="historial" class="perfil-section historial-section">
+
+                    <div class="section-header">
+                        <div>
+                            <h2>Historial de análisis</h2>
+                            <p>Revisa tus análisis anteriores y consulta los detalles importantes.</p>
+                        </div>
+
+                        <input class="buscar-input" type="text" placeholder="Buscar análisis">
+                    </div>
+
+                    <div class="historial-layout">
+
+                        <div class="historial-lista">
+
+                            <div class="historial-tabs">
+                                <button class="tab-activo">Todos</button>
+                                <button>Informes</button>
+                                <button>Comparaciones</button>
+                            </div>
+
+                            <h3>Hoy</h3>
+
+                            <div class="historial-item historial-activo">
+                                <div>
+                                    <h4>Análisis: baterías portátiles</h4>
+                                    <p>Hoy, 9:00 AM</p>
+                                </div>
+                                <span>Informe</span>
+                            </div>
+
+                            <div class="historial-item">
+                                <div>
+                                    <h4>Comparación: Auriculares</h4>
+                                    <p>Hoy, 8:15 AM</p>
+                                </div>
+                                <span>Comparación</span>
+                            </div>
+
+                            <div class="historial-item">
+                                <div>
+                                    <h4>Análisis: Smartwatch dispositivos</h4>
+                                    <p>Hoy, 8:05 AM</p>
+                                </div>
+                                <span>Informe</span>
+                            </div>
+
+                            <h3>Ayer</h3>
+
+                            <div class="historial-item">
+                                <div>
+                                    <h4>Análisis: Cargadores inalámbricos</h4>
+                                    <p>Ayer, 9:15 PM</p>
+                                </div>
+                                <span>Informe</span>
+                            </div>
+
+                        </div>
+
+                        <aside class="historial-detalle">
+
+                            <div class="detalle-box">
+                                <p class="detalle-tipo">Análisis de baterías portátiles</p>
+                                <h3>Informe</h3>
+                                <h2>Hoy, 9:00 AM</h2>
+                            </div>
+
+                            <div class="detalle-resumen">
+                                <h3>Resumen</h3>
+                                <p>
+                                    Se analizaron 20 productos de baterías portátiles en el mercado estadounidense.
+                                    Se identificaron características, precios y tendencias relevantes.
+                                </p>
+                            </div>
+
+                            <div class="detalle-grid">
+                                <div>
+                                    <span>Tipo de análisis</span>
+                                    <strong>Informe completo</strong>
+                                </div>
+
+                                <div>
+                                    <span>Mercado</span>
+                                    <strong>Estados Unidos</strong>
+                                </div>
+
+                                <div>
+                                    <span>Productos analizados</span>
+                                    <strong>20</strong>
+                                </div>
+
+                                <div>
+                                    <span>Duración</span>
+                                    <strong>2 min 34 seg</strong>
+                                </div>
+                            </div>
+
+                            <div class="detalle-actions">
+                                <button class="btn-principal">Ver resultados</button>
+                                <button class="btn-secundario">Descargar reporte</button>
+                            </div>
+                        </aside>
+                    </div>
+
+                </section>
+
+                <section id="seguridad" class="perfil-section seguridad-section">
+
+                    <div class="section-header">
+                        <div>
+                            <h2>Privacidad y seguridad</h2>
+                            <p>Protege tu cuenta y revisa buenas prácticas para evitar riesgos digitales.</p>
+                        </div>
+
+                        <button class="btn-principal">Ver actividad</button>
+                    </div>
+
+                    <div class="seguridad-layout">
+
+                        <div class="seguridad-panel">
+
+                            <h3>Estado de la cuenta</h3>
+
+                            <div class="seguridad-lista">
+
+                                <div class="seguridad-item">
+                                    <div>
+                                        <h4>Contraseña</h4>
+                                        <p>Actualizada recientemente</p>
+                                    </div>
+                                    <span class="estado-ok">Activa</span>
+                                </div>
+
+                                <div class="seguridad-item">
+                                    <div>
+                                        <h4>Último acceso</h4>
+                                        <p>Lima, Perú · Chrome Windows</p>
+                                    </div>
+                                    <span>Reciente</span>
+                                </div>
+
+                                <div class="seguridad-item">
+                                    <div>
+                                        <h4>Autenticación</h4>
+                                        <p>Protección adicional para tu cuenta</p>
+                                    </div>
+                                    <span class="estado-ok">Activa</span>
+                                </div>
+
+                            </div>
+
+                            <button class="btn-secundario">Cambiar contraseña</button>
+
+                        </div>
+
+                        <div class="consejos-panel">
+
+                            <h3>Consejos para evitar riesgos</h3>
+                            <p>Selecciona un tema para conocer buenas prácticas de seguridad.</p>
+
+                            <div class="consejos-grid">
+
+                                <div class="consejo-card consejo-activo">
+                                    <h4>Contraseñas seguras</h4>
+                                    <p>Crea claves únicas y robustas para cada plataforma.</p>
+                                </div>
+
+                                <div class="consejo-card">
+                                    <h4>Evita el phishing</h4>
+                                    <p>Identifica correos y enlaces sospechosos antes de hacer clic.</p>
+                                </div>
+
+                                <div class="consejo-card">
+                                    <h4>Redes seguras</h4>
+                                    <p>Evita operar desde redes públicas sin protección VPN.</p>
+                                </div>
+
+                                <div class="consejo-card">
+                                    <h4>Actualizaciones</h4>
+                                    <p>Mantén tu app y dispositivo siempre al día.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <section id="ayuda" class="perfil-section ayuda-section">
+
+                    <div class="section-header">
+                        <div>
+                            <h2>Ayuda y soporte</h2>
+                            <p>Encuentra respuestas rápidas o comunícate con soporte si necesitas asistencia.</p>
+                        </div>
+
+                        <button class="btn-principal">Contactar soporte</button>
+                    </div>
+
+                    <div class="ayuda-grid">
+
+                        <div class="ayuda-card">
+                            <h3>Preguntas frecuentes</h3>
+                            <p>Resuelve dudas comunes sobre análisis, recomendaciones y reportes.</p>
+                            <button class="btn-secundario">Ver preguntas</button>
+                        </div>
+
+                        <div class="ayuda-card">
+                            <h3>Guías paso a paso</h3>
+                            <p>Aprende cómo usar las funciones principales de TradeScope.</p>
+                            <button class="btn-secundario">Ver guías</button>
+                        </div>
+
+                        <div class="ayuda-card">
+                            <h3>Centro de soporte</h3>
+                            <p>Envía una consulta y recibe atención personalizada del equipo.</p>
+                            <button class="btn-secundario">Enviar consulta</button>
+                        </div>
+
+                    </div>
+
+                </section>
 
             </section>
-
-            <section id="historial" class="perfil-section historial-section">
-
-            <div class="section-header">
-                <div>
-                <h2>Historial de análisis</h2>
-                <p>Revisa tus análisis anteriores y consulta los detalles importantes.</p>
-                </div>
-
-                <input class="buscar-input" type="text" placeholder="Buscar análisis">
-            </div>
-
-            <div class="historial-layout">
-
-                <div class="historial-lista">
-
-                <div class="historial-tabs">
-                    <button class="tab-activo">Todos</button>
-                    <button>Informes</button>
-                    <button>Comparaciones</button>
-                </div>
-
-                <h3>Hoy</h3>
-
-                <div class="historial-item historial-activo">
-                    <div>
-                    <h4>Análisis: baterías portátiles</h4>
-                    <p>Hoy, 9:00 AM</p>
-                    </div>
-                    <span>Informe</span>
-                </div>
-
-                <div class="historial-item">
-                    <div>
-                    <h4>Comparación: Auriculares</h4>
-                    <p>Hoy, 8:15 AM</p>
-                    </div>
-                    <span>Comparación</span>
-                </div>
-
-                <div class="historial-item">
-                    <div>
-                    <h4>Análisis: Smartwatch dispositivos</h4>
-                    <p>Hoy, 8:05 AM</p>
-                    </div>
-                    <span>Informe</span>
-                </div>
-
-                <h3>Ayer</h3>
-
-                <div class="historial-item">
-                    <div>
-                    <h4>Análisis: Cargadores inalámbricos</h4>
-                    <p>Ayer, 9:15 PM</p>
-                    </div>
-                    <span>Informe</span>
-                </div>
-
-                </div>
-
-                <aside class="historial-detalle">
-
-                <div class="detalle-box">
-                    <p class="detalle-tipo">Análisis de baterías portátiles</p>
-                    <h3>Informe</h3>
-                    <h2>Hoy, 9:00 AM</h2>
-                </div>
-
-                <div class="detalle-resumen">
-                    <h3>Resumen</h3>
-                    <p>
-                    Se analizaron 20 productos de baterías portátiles en el mercado estadounidense.
-                    Se identificaron características, precios y tendencias relevantes.
-                    </p>
-                </div>
-
-                <div class="detalle-grid">
-                    <div>
-                    <span>Tipo de análisis</span>
-                    <strong>Informe completo</strong>
-                    </div>
-
-                    <div>
-                    <span>Mercado</span>
-                    <strong>Estados Unidos</strong>
-                    </div>
-
-                    <div>
-                    <span>Productos analizados</span>
-                    <strong>20</strong>
-                    </div>
-
-                    <div>
-                    <span>Duración</span>
-                    <strong>2 min 34 seg</strong>
-                    </div>
-                </div>
-
-                <div class="detalle-actions">
-                    <button class="btn-principal">Ver resultados</button>
-                    <button class="btn-secundario">Descargar reporte</button>
-                </div>
-
-                </aside>
-
-            </div>
-
-            </section>
-
-            <section id="seguridad" class="perfil-section seguridad-section">
-
-            <div class="section-header">
-                <div>
-                <h2>Privacidad y seguridad</h2>
-                <p>Protege tu cuenta y revisa buenas prácticas para evitar riesgos digitales.</p>
-                </div>
-
-                <button class="btn-principal">Ver actividad</button>
-            </div>
-
-            <div class="seguridad-layout">
-
-                <div class="seguridad-panel">
-
-                <h3>Estado de la cuenta</h3>
-
-                <div class="seguridad-lista">
-
-                    <div class="seguridad-item">
-                    <div>
-                        <h4>Contraseña</h4>
-                        <p>Actualizada recientemente</p>
-                    </div>
-                    <span class="estado-ok">Activa</span>
-                    </div>
-
-                    <div class="seguridad-item">
-                    <div>
-                        <h4>Último acceso</h4>
-                        <p>Lima, Perú · Chrome Windows</p>
-                    </div>
-                    <span>Reciente</span>
-                    </div>
-
-                    <div class="seguridad-item">
-                    <div>
-                        <h4>Autenticación</h4>
-                        <p>Protección adicional para tu cuenta</p>
-                    </div>
-                    <span class="estado-ok">Activa</span>
-                    </div>
-
-                </div>
-
-                <button class="btn-secundario">Cambiar contraseña</button>
-
-                </div>
-
-                <div class="consejos-panel">
-
-                <h3>Consejos para evitar riesgos</h3>
-                <p>Selecciona un tema para conocer buenas prácticas de seguridad.</p>
-
-                <div class="consejos-grid">
-
-                    <div class="consejo-card consejo-activo">
-                    <h4>Contraseñas seguras</h4>
-                    <p>Crea claves únicas y robustas para cada plataforma.</p>
-                    </div>
-
-                    <div class="consejo-card">
-                    <h4>Evita el phishing</h4>
-                    <p>Identifica correos y enlaces sospechosos antes de hacer clic.</p>
-                    </div>
-
-                    <div class="consejo-card">
-                    <h4>Redes seguras</h4>
-                    <p>Evita operar desde redes públicas sin protección VPN.</p>
-                    </div>
-
-                    <div class="consejo-card">
-                    <h4>Actualizaciones</h4>
-                    <p>Mantén tu app y dispositivo siempre al día.</p>
-                    </div>
-
-                </div>
-
-                </div>
-
-            </div>
-
-            </section>
-
-            <section id="ayuda" class="perfil-section ayuda-section">
-
-            <div class="section-header">
-                <div>
-                <h2>Ayuda y soporte</h2>
-                <p>Encuentra respuestas rápidas o comunícate con soporte si necesitas asistencia.</p>
-                </div>
-
-                <button class="btn-principal">Contactar soporte</button>
-            </div>
-
-            <div class="ayuda-grid">
-
-                <div class="ayuda-card">
-                <h3>Preguntas frecuentes</h3>
-                <p>Resuelve dudas comunes sobre análisis, recomendaciones y reportes.</p>
-                <button class="btn-secundario">Ver preguntas</button>
-                </div>
-
-                <div class="ayuda-card">
-                <h3>Guías paso a paso</h3>
-                <p>Aprende cómo usar las funciones principales de TradeScope.</p>
-                <button class="btn-secundario">Ver guías</button>
-                </div>
-
-                <div class="ayuda-card">
-                <h3>Centro de soporte</h3>
-                <p>Envía una consulta y recibe atención personalizada del equipo.</p>
-                <button class="btn-secundario">Enviar consulta</button>
-                </div>
-
-            </div>
-
-            </section>
-
         </section>
-
-        </section>
-
     </main>
-
 </body>
+
 </html>

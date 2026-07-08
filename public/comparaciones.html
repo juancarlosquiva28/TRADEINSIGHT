@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparación de Mercados</title>
+    <link rel="stylesheet" href="../public/assets/styles/comparaciones.css">
+</head>
+
+<body>
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <img src="assets/images/footerLogo.png" alt="TradeScope">
+        </div>
+
+        <nav class="sidebar-menu">
+            <a href="home.html">Inicio</a>
+            <a href="analisisMercados.html" class="active">Análisis de Mercados</a>
+            <a href="recomendaciones.html">Recomendaciones</a>
+            <a href="alertas.html">Alertas</a>
+            <a href="#">Favoritos</a>
+            <a href="reportes.html">Reportes</a>
+            <a href="perfil.html">Perfil</a>
+            <a href="#">Configuración</a>
+            <a href="#" class="logout">Cerrar Sesión</a>
+        </nav>
+
+    </aside>
+
+    <main class="comparaciones-main">
+
+        <header class="topbar">
+
+            <div class="topbar-title">
+                <h1>Comparación de Mercados</h1>
+                <p>Compara países según demanda, costos, dificultad y barreras comerciales.</p>
+            </div>
+
+            <div class="topbar-right">
+
+                <div class="notification">
+                    🔔
+                    <span class="dot"></span>
+                </div>
+
+                <div class="user">
+                    <img src="assets/images/user.png" alt="User">
+
+                    <div class="user-info">
+                        <span class="name">Usuario</span>
+                        <span class="role">Empresa</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </header>
+
+        <section class="comparaciones-content">
+
+            <section class="card seleccion-mercados">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Seleccionar mercados</h2>
+                        <p>Elige los países que deseas comparar dentro del análisis comercial.</p>
+                    </div>
+                </div>
+
+                <div class="seleccion-body">
+
+                    <div class="seleccion-form">
+
+                        <label>Producto</label>
+                        <input type="text" placeholder="Ejemplo: Café en grano">
+
+                        <label>Buscar país</label>
+                        <input type="text" placeholder="Buscar mercado o país">
+
+                    </div>
+
+                    <div class="paises-lista">
+
+                        <div class="pais-item pais-activo">
+                            <div>
+                                <h3>Perú</h3>
+                                <p>Mercado base</p>
+                            </div>
+                            <span>✓</span>
+                        </div>
+
+                        <div class="pais-item pais-activo">
+                            <div>
+                                <h3>Estados Unidos</h3>
+                                <p>Alta demanda</p>
+                            </div>
+                            <span>✓</span>
+                        </div>
+
+                        <div class="pais-item pais-activo">
+                            <div>
+                                <h3>Canadá</h3>
+                                <p>Mercado estable</p>
+                            </div>
+                            <span>✓</span>
+                        </div>
+
+                        <div class="pais-item">
+                            <div>
+                                <h3>Chile</h3>
+                                <p>Mercado regional</p>
+                            </div>
+                            <span>+</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="acciones-seleccion">
+                    <button class="btn-principal">Comparar mercados</button>
+                    <a href="analisisMercados.html" class="btn-secundario">Volver al análisis</a>
+                </div>
+
+            </section>
+
+            <section class="card resultado-comparacion">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Resultado comparativo</h2>
+                        <p>Resumen de indicadores clave de los mercados seleccionados.</p>
+                    </div>
+
+                    <span class="actualizacion">Actualizado: 11:03 am</span>
+                </div>
+
+                <div class="tabla-comparacion">
+
+                    <div class="tabla-row tabla-head">
+                        <span>País</span>
+                        <span>Demanda</span>
+                        <span>Costo</span>
+                        <span>Dificultad</span>
+                        <span>Riesgo</span>
+                    </div>
+
+                    <div class="tabla-row">
+                        <span>Estados Unidos</span>
+                        <span>Alta</span>
+                        <span>US$ 2,840</span>
+                        <span>Media</span>
+                        <span>Medio</span>
+                    </div>
+
+                    <div class="tabla-row">
+                        <span>Canadá</span>
+                        <span>Alta</span>
+                        <span>US$ 2,600</span>
+                        <span>Media</span>
+                        <span>Bajo</span>
+                    </div>
+
+                    <div class="tabla-row">
+                        <span>Chile</span>
+                        <span>Media</span>
+                        <span>US$ 1,600</span>
+                        <span>Baja</span>
+                        <span>Bajo</span>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="doble-seccion">
+
+                <section class="card grafico-card">
+
+                    <div class="section-header">
+                        <div>
+                            <h2>Tamaño de mercado</h2>
+                            <p>Comparación visual del potencial económico.</p>
+                        </div>
+                    </div>
+
+                    <div class="grafico-barras">
+                        <div class="barra barra-1"></div>
+                        <div class="barra barra-2"></div>
+                        <div class="barra barra-3"></div>
+                    </div>
+
+                    <div class="grafico-leyenda">
+                        <span>Estados Unidos</span>
+                        <span>Canadá</span>
+                        <span>Chile</span>
+                    </div>
+
+                </section>
+
+                <section class="card grafico-card">
+
+                    <div class="section-header">
+                        <div>
+                            <h2>Crecimiento del mercado</h2>
+                            <p>Evolución estimada de los mercados seleccionados.</p>
+                        </div>
+                    </div>
+
+                    <div class="crecimiento-lista">
+
+                        <div class="crecimiento-item">
+                            <div class="crecimiento-info">
+                                <h3>Estados Unidos</h3>
+                                <span>Mayor crecimiento estimado</span>
+                            </div>
+
+                            <div class="crecimiento-dato">
+                                <strong>85%</strong>
+                            </div>
+
+                            <div class="crecimiento-barra">
+                                <div class="crecimiento-progreso progreso-usa"></div>
+                            </div>
+                        </div>
+
+                        <div class="crecimiento-item">
+                            <div class="crecimiento-info">
+                                <h3>Canadá</h3>
+                                <span>Crecimiento estable</span>
+                            </div>
+
+                            <div class="crecimiento-dato">
+                                <strong>72%</strong>
+                            </div>
+
+                            <div class="crecimiento-barra">
+                                <div class="crecimiento-progreso progreso-canada"></div>
+                            </div>
+                        </div>
+
+                        <div class="crecimiento-item">
+                            <div class="crecimiento-info">
+                                <h3>Chile</h3>
+                                <span>Crecimiento moderado</span>
+                            </div>
+
+                            <div class="crecimiento-dato">
+                                <strong>58%</strong>
+                            </div>
+
+                            <div class="crecimiento-barra">
+                                <div class="crecimiento-progreso progreso-chile"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <p class="grafico-texto">
+                        Estados Unidos presenta el mayor crecimiento estimado, seguido por Canadá y Chile.
+                    </p>
+                </section>
+            </section>
+
+            <section id="ranking" class="card ranking-section">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Ranking de mercados</h2>
+                        <p>Mercados ordenados según su puntaje general de oportunidad.</p>
+                    </div>
+
+                    <a href="reportes.html" class="btn-secundario">Exportar ranking</a>
+                </div>
+
+                <div class="ranking-lista">
+
+                    <div class="ranking-item">
+                        <span class="ranking-numero">1</span>
+
+                        <div class="ranking-info">
+                            <h3>Estados Unidos</h3>
+                            <p>Alta demanda y buena oportunidad comercial.</p>
+                        </div>
+
+                        <strong>92 pts</strong>
+                    </div>
+
+                    <div class="ranking-item">
+                        <span class="ranking-numero">2</span>
+
+                        <div class="ranking-info">
+                            <h3>Canadá</h3>
+                            <p>Mercado estable y riesgo bajo.</p>
+                        </div>
+
+                        <strong>87 pts</strong>
+                    </div>
+
+                    <div class="ranking-item">
+                        <span class="ranking-numero">3</span>
+
+                        <div class="ranking-info">
+                            <h3>Chile</h3>
+                            <p>Menor costo y baja dificultad de entrada.</p>
+                        </div>
+
+                        <strong>80 pts</strong>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="barreras" class="card barreras-section">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Comparación de barreras comerciales</h2>
+                        <p>Revisa las principales barreras por cada mercado seleccionado.</p>
+                    </div>
+                </div>
+
+                <div class="barreras-lista">
+
+                    <article class="barrera-card">
+                        <h3>Estados Unidos</h3>
+                        <p>Requisitos sanitarios, etiquetado y certificaciones específicas.</p>
+
+                        <div class="barrera-nivel">
+                            <span>Nivel</span>
+                            <strong>Medio</strong>
+                        </div>
+                    </article>
+
+                    <article class="barrera-card">
+                        <h3>Canadá</h3>
+                        <p>Normas de calidad y documentación de origen del producto.</p>
+
+                        <div class="barrera-nivel">
+                            <span>Nivel</span>
+                            <strong>Bajo</strong>
+                        </div>
+                    </article>
+
+                    <article class="barrera-card">
+                        <h3>Chile</h3>
+                        <p>Menores restricciones por cercanía comercial y acuerdos regionales.</p>
+
+                        <div class="barrera-nivel">
+                            <span>Nivel</span>
+                            <strong>Bajo</strong>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="card acciones-finales">
+
+                <div>
+                    <h2>Acciones disponibles</h2>
+                    <p>Continúa revisando tendencias o genera un reporte con esta comparación.</p>
+                </div>
+
+                <div class="botones-finales">
+                    <a href="tendencias.html" class="btn-secundario">Ver tendencias</a>
+                    <a href="detalleMercado.html" class="btn-secundario">Ver detalle</a>
+                    <a href="reportes.html" class="btn-principal">Generar reporte</a>
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>

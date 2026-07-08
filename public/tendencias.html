@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tendencias del Mercado</title>
+    <link rel="stylesheet" href="../public/assets/styles/tendencias.css">
+</head>
+
+<body>
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <img src="assets/images/footerLogo.png" alt="TradeScope">
+        </div>
+
+        <nav class="sidebar-menu">
+            <a href="home.html">Inicio</a>
+            <a href="analisisMercados.html" class="active">Análisis de Mercados</a>
+            <a href="recomendaciones.html">Recomendaciones</a>
+            <a href="alertas.html">Alertas</a>
+            <a href="#">Favoritos</a>
+            <a href="reportes.html">Reportes</a>
+            <a href="perfil.html">Perfil</a>
+            <a href="#">Configuración</a>
+            <a href="#" class="logout">Cerrar Sesión</a>
+        </nav>
+
+    </aside>
+
+    <main class="tendencias-main">
+
+        <header class="topbar">
+
+            <div class="topbar-title">
+                <h1>Tendencias del Mercado</h1>
+                <p>Visualiza el comportamiento del producto en mercados internacionales.</p>
+            </div>
+
+            <div class="topbar-right">
+
+                <div class="notification">
+                    🔔
+                    <span class="dot"></span>
+                </div>
+
+                <div class="user">
+                    <img src="assets/images/user.png" alt="User">
+
+                    <div class="user-info">
+                        <span class="name">Usuario</span>
+                        <span class="role">Empresa</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </header>
+
+        <section class="tendencias-content">
+
+            <section class="card busqueda-tendencias">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Buscar tendencias</h2>
+                        <p>Selecciona un producto y un mercado para revisar su comportamiento.</p>
+                    </div>
+                </div>
+
+                <div class="busqueda-body">
+
+                    <div class="busqueda-form">
+
+                        <label>Producto</label>
+                        <input type="text" placeholder="Ejemplo: Café en grano">
+
+                        <label>País</label>
+                        <input type="text" placeholder="Ejemplo: Estados Unidos">
+
+                    </div>
+
+                    <div class="busqueda-info">
+                        <h3>Análisis de tendencia</h3>
+                        <p>
+                            La plataforma muestra el interés del mercado, la demanda estimada
+                            y los países con mayor crecimiento para el producto seleccionado.
+                        </p>
+
+                        <button class="btn-principal">Ver tendencias</button>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="resumen-tendencias">
+
+                <div class="resumen-card">
+                    <span>Producto</span>
+                    <h3>Café en grano</h3>
+                    <p>Producto seleccionado para revisar tendencias.</p>
+                </div>
+
+                <div class="resumen-card">
+                    <span>Mercado principal</span>
+                    <h3>Estados Unidos</h3>
+                    <p>Mayor interés detectado.</p>
+                </div>
+
+                <div class="resumen-card">
+                    <span>Nivel de demanda</span>
+                    <h3>Alta</h3>
+                    <p>El producto mantiene crecimiento positivo.</p>
+                </div>
+
+            </section>
+
+            <section class="doble-seccion">
+
+                <section class="card tendencia-card">
+
+                    <div class="section-header">
+                        <div>
+                            <h2>Interés de búsqueda</h2>
+                            <p>Evolución estimada del interés por el producto.</p>
+                        </div>
+                    </div>
+
+                    <div class="tendencia-linea">
+                        <div class="punto punto-1"></div>
+                        <div class="punto punto-2"></div>
+                        <div class="punto punto-3"></div>
+                        <div class="punto punto-4"></div>
+                    </div>
+
+                    <div class="tendencia-meses">
+                        <span>Enero</span>
+                        <span>Febrero</span>
+                        <span>Marzo</span>
+                        <span>Abril</span>
+                    </div>
+
+                </section>
+
+                <section class="card tendencia-card">
+
+                    <div class="section-header">
+                        <div>
+                            <h2>Volumen de demanda</h2>
+                            <p>Comparación visual del nivel de demanda por mercado.</p>
+                        </div>
+                    </div>
+
+                    <div class="demanda-lista">
+
+                        <div class="demanda-item">
+                            <div class="demanda-info">
+                                <h3>Estados Unidos</h3>
+                                <span>85 puntos</span>
+                            </div>
+
+                            <div class="demanda-barra">
+                                <div class="demanda-progreso demanda-usa"></div>
+                            </div>
+                        </div>
+
+                        <div class="demanda-item">
+                            <div class="demanda-info">
+                                <h3>Alemania</h3>
+                                <span>80 puntos</span>
+                            </div>
+
+                            <div class="demanda-barra">
+                                <div class="demanda-progreso demanda-alemania"></div>
+                            </div>
+                        </div>
+
+                        <div class="demanda-item">
+                            <div class="demanda-info">
+                                <h3>España</h3>
+                                <span>74 puntos</span>
+                            </div>
+
+                            <div class="demanda-barra">
+                                <div class="demanda-progreso demanda-espana"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </section>
+
+            <section class="card paises-tendencia">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Principales países</h2>
+                        <p>Mercados donde el producto presenta mayor oportunidad de crecimiento.</p>
+                    </div>
+
+                    <a href="comparaciones.html" class="btn-secundario">Comparar mercados</a>
+                </div>
+
+                <div class="paises-lista">
+
+                    <article class="pais-card pais-activo">
+                        <div>
+                            <h3>Estados Unidos</h3>
+                            <p>Alta demanda de café de especialidad y productos orgánicos.</p>
+                        </div>
+
+                        <strong>85</strong>
+                    </article>
+
+                    <article class="pais-card">
+                        <div>
+                            <h3>Alemania</h3>
+                            <p>Interés constante en productos sostenibles y comercio responsable.</p>
+                        </div>
+
+                        <strong>80</strong>
+                    </article>
+
+                    <article class="pais-card">
+                        <div>
+                            <h3>España</h3>
+                            <p>Demanda moderada con oportunidad en nichos específicos.</p>
+                        </div>
+
+                        <strong>74</strong>
+                    </article>
+
+                </div>
+
+            </section>
+
+            <section class="card interpretacion-section">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Interpretación del análisis</h2>
+                        <p>Resumen de lo que indican las tendencias detectadas.</p>
+                    </div>
+                </div>
+
+                <div class="interpretacion-body">
+
+                    <div class="interpretacion-card">
+                        <h3>Tendencia positiva</h3>
+                        <p>
+                            El producto muestra un comportamiento favorable en mercados de alto consumo,
+                            especialmente en Estados Unidos.
+                        </p>
+                    </div>
+
+                    <div class="interpretacion-card">
+                        <h3>Oportunidad comercial</h3>
+                        <p>
+                            La demanda alta puede representar una oportunidad para iniciar o fortalecer
+                            una estrategia de exportación.
+                        </p>
+                    </div>
+
+                    <div class="interpretacion-card">
+                        <h3>Recomendación</h3>
+                        <p>
+                            Comparar los mercados principales antes de tomar una decisión final.
+                        </p>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="card acciones-finales">
+
+                <div>
+                    <h2>Acciones disponibles</h2>
+                    <p>Continúa revisando el detalle del mercado o genera un reporte del análisis.</p>
+                </div>
+
+                <div class="botones-finales">
+                    <a href="detalleMercado.html" class="btn-secundario">Ver detalle</a>
+                    <a href="comparaciones.html" class="btn-secundario">Comparar mercados</a>
+                    <a href="reportes.html" class="btn-principal">Generar reporte</a>
+                </div>
+            </section>
+        </section>
+    </main>
+
+</body>
+
+</html>

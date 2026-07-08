@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del Mercado</title>
+    <link rel="stylesheet" href="../public/assets/styles/detalleMercado.css">
+</head>
+
+<body>
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <img src="assets/images/footerLogo.png" alt="TradeScope">
+        </div>
+
+        <nav class="sidebar-menu">
+            <a href="home.html">Inicio</a>
+            <a href="analisisMercados.html" class="active">Análisis de Mercados</a>
+            <a href="recomendaciones.html">Recomendaciones</a>
+            <a href="alertas.html">Alertas</a>
+            <a href="#">Favoritos</a>
+            <a href="reportes.html">Reportes</a>
+            <a href="perfil.html">Perfil</a>
+            <a href="#">Configuración</a>
+            <a href="#" class="logout">Cerrar Sesión</a>
+        </nav>
+
+    </aside>
+
+    <main class="detalle-main">
+
+        <header class="topbar">
+
+            <div class="topbar-title">
+                <h1>Detalle del Mercado</h1>
+                <p>Consulta la información completa del mercado seleccionado para la operación comercial.</p>
+            </div>
+
+            <div class="topbar-right">
+
+                <div class="notification">
+                    🔔
+                    <span class="dot"></span>
+                </div>
+
+                <div class="user">
+                    <img src="assets/images/user.png" alt="User">
+
+                    <div class="user-info">
+                        <span class="name">Usuario</span>
+                        <span class="role">Empresa</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </header>
+
+        <section class="detalle-content">
+
+            <section class="mercado-principal card">
+
+                <div class="mercado-info">
+                    <p class="etiqueta">Mercado seleccionado</p>
+                    <h2>Estados Unidos</h2>
+                    <p>
+                        Mercado evaluado para la exportación de café en grano desde Perú.
+                        Presenta alta demanda, dificultad media y costos moderados.
+                    </p>
+                </div>
+
+                <div class="mercado-resumen">
+
+                    <div class="resumen-item">
+                        <span>Producto</span>
+                        <strong>Café en grano</strong>
+                    </div>
+
+                    <div class="resumen-item">
+                        <span>Operación</span>
+                        <strong>Exportación</strong>
+                    </div>
+
+                    <div class="resumen-item">
+                        <span>Demanda</span>
+                        <strong>Alta</strong>
+                    </div>
+
+                    <div class="resumen-item">
+                        <span>Dificultad</span>
+                        <strong>Media</strong>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="regulaciones" class="card">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Regulaciones internacionales</h2>
+                        <p>Requisitos que debe cumplir el producto para ingresar al mercado seleccionado.</p>
+                    </div>
+                </div>
+
+                <div class="lista-detalle">
+
+                    <article class="detalle-item">
+                        <h3>Certificación sanitaria</h3>
+                        <p>El producto debe cumplir con requisitos sanitarios y controles de calidad.</p>
+                    </article>
+
+                    <article class="detalle-item">
+                        <h3>Documentación de origen</h3>
+                        <p>Se debe presentar documentación que confirme el origen del producto exportado.</p>
+                    </article>
+
+                    <article class="detalle-item">
+                        <h3>Etiquetado del producto</h3>
+                        <p>El empaque debe mostrar información clara sobre contenido, origen y características.</p>
+                    </article>
+
+                </div>
+
+            </section>
+
+            <section id="tratados" class="card">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Tratados comerciales</h2>
+                        <p>Acuerdos que pueden facilitar la entrada del producto al mercado.</p>
+                    </div>
+                </div>
+
+                <div class="tratado-card">
+
+                    <div>
+                        <h3>Acuerdo comercial vigente</h3>
+                        <p>
+                            El mercado cuenta con condiciones comerciales favorables para ciertos productos
+                            peruanos, lo que puede reducir barreras y costos de entrada.
+                        </p>
+                    </div>
+
+                    <span>Beneficio comercial</span>
+
+                </div>
+
+            </section>
+
+            <section id="barreras" class="card">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Barreras comerciales</h2>
+                        <p>Factores que pueden dificultar el ingreso o permanencia en el mercado.</p>
+                    </div>
+                </div>
+
+                <div class="lista-detalle">
+
+                    <article class="detalle-item">
+                        <h3>Barrera técnica</h3>
+                        <p>Exigencias de calidad, certificaciones y normas específicas del mercado.</p>
+                    </article>
+
+                    <article class="detalle-item">
+                        <h3>Barrera logística</h3>
+                        <p>Costos de transporte, tiempos de entrega y almacenamiento del producto.</p>
+                    </article>
+
+                    <article class="detalle-item">
+                        <h3>Barrera competitiva</h3>
+                        <p>Alta presencia de proveedores o marcas ya posicionadas en el país.</p>
+                    </article>
+
+                </div>
+
+            </section>
+
+            <section id="costos" class="card">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Costos estimados</h2>
+                        <p>Estimación inicial de costos para evaluar la viabilidad comercial.</p>
+                    </div>
+                </div>
+
+                <div class="costos-lista">
+
+                    <div class="costo-item">
+                        <span>Transporte</span>
+                        <strong>US$ 1,200</strong>
+                    </div>
+
+                    <div class="costo-item">
+                        <span>Documentación</span>
+                        <strong>US$ 320</strong>
+                    </div>
+
+                    <div class="costo-item">
+                        <span>Almacenamiento</span>
+                        <strong>US$ 480</strong>
+                    </div>
+
+                    <div class="costo-item">
+                        <span>Operación comercial</span>
+                        <strong>US$ 840</strong>
+                    </div>
+
+                </div>
+
+                <div class="costo-total">
+                    <span>Costo total estimado</span>
+                    <strong>US$ 2,840</strong>
+                </div>
+
+            </section>
+
+            <section id="dificultad" class="card">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Nivel de dificultad del mercado</h2>
+                        <p>Evaluación general considerando regulaciones, costos, barreras y demanda.</p>
+                    </div>
+                </div>
+
+                <div class="dificultad-contenido">
+
+                    <div class="dificultad-card">
+                        <h3>Dificultad media</h3>
+                        <p>
+                            El mercado tiene buena demanda, pero requiere cumplir requisitos comerciales,
+                            técnicos y logísticos antes de iniciar la operación.
+                        </p>
+                    </div>
+
+                    <div class="dificultad-factores">
+
+                        <div class="factor-item">
+                            <span>Regulaciones</span>
+                            <strong>Media</strong>
+                        </div>
+
+                        <div class="factor-item">
+                            <span>Costos</span>
+                            <strong>Medio</strong>
+                        </div>
+
+                        <div class="factor-item">
+                            <span>Barreras</span>
+                            <strong>Media</strong>
+                        </div>
+
+                        <div class="factor-item">
+                            <span>Demanda</span>
+                            <strong>Alta</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="acciones-finales card">
+
+                <div>
+                    <h2>Acciones disponibles</h2>
+                    <p>Continúa el análisis comparando este mercado o generando un reporte.</p>
+                </div>
+
+                <div class="botones-finales">
+                    <a href="comparaciones.html" class="btn-secundario">Comparar mercados</a>
+                    <a href="tendencias.html" class="btn-secundario">Ver tendencias</a>
+                    <a href="reportes.html" class="btn-principal">Generar reporte</a>
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+</body>
+</html>

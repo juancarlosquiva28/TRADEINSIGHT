@@ -35,30 +35,32 @@ body {
 .sidebar-menu {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 15px;
 }
 
 .sidebar-menu a {
+    font-size: 17px;
     display: block;
     color: white;
     text-decoration: none;
-    padding: 12px;
+    padding: 16px;
     border-radius: 10px;
     transition: all 0.3s ease;
 }
 
 .sidebar-menu a:hover {
-    color: white;
-    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    background-color: #17316d;
 }
 
 .sidebar-menu a.active {
-    background-color: rgba(255, 255, 255, 0.14);
-    border: 1px solid rgba(255, 255, 255, 0.25);
+    background-color: #1b3675;
+    border: 1px solid #526899;
+    font-weight: 700;
 }
 
 .sidebar-menu .logout {
-    color: #ffd6d6;
+    color: #ffffff;
 }
 
 .perfil-main {
@@ -248,7 +250,7 @@ body {
     font-size: 16px;
 }
 
-.section-header > div {
+.section-header>div {
     max-width: 560px;
 }
 
@@ -363,7 +365,7 @@ body {
     font-size: 22px;
 }
 
-.experiencia-card > p {
+.experiencia-card>p {
     margin: 0 0 18px;
     color: #536179;
     line-height: 1.5;
@@ -593,7 +595,7 @@ body {
     font-size: 22px;
 }
 
-.consejos-panel > p {
+.consejos-panel>p {
     margin: 0 0 18px;
     color: #536179;
 }
