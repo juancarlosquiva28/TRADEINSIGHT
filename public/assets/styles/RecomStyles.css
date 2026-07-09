@@ -164,8 +164,7 @@ body {
     gap: 24px;
 }
 
-/* ===== SUBTITULO ===== */
-
+/* aqui inicia las sub secciones de recomendaciones */
 .subtitle{
     display:flex;
     justify-content:space-between;
@@ -182,7 +181,7 @@ body {
     width:55px;
 }
 
-/* ===== SECCION ===== */
+/* SECCION  */
 
 .section-title{
     font-size:22px;
@@ -190,7 +189,7 @@ body {
     margin-bottom:20px;
 }
 
-/* ===== GRID RECOMENDACIONES ===== */
+/*GRID RECOME*/
 
 .cards-grid{
     display:grid;
@@ -223,7 +222,7 @@ body {
     font-weight:600;
 }
 
-/* ===== TARJETAS PAISES ===== */
+/*Tarjetad para países*/
 
 .country-list{
     display:flex;
@@ -266,7 +265,7 @@ body {
     width:20px;
 }
 
-/* ===== MERCADOS EMERGENTES ===== */
+/* Mercados emergentes */
 
 .growth-tag{
     background:#edf3ff;
@@ -288,7 +287,7 @@ body {
     width:12px;
 }
 
-/* ===== GUIA ===== */
+/* guia */
 
 .guide-box{
     border:1px solid #d2d2d2;
@@ -319,7 +318,7 @@ body {
 
 
 
-/* ===== MERCADOS EN RIESGO ===== */
+/* mercados en riesgo*/
 
 .risk-card{
     border:1px solid #d7d7d7;
@@ -353,7 +352,7 @@ body {
     width:16px;
 }
 
-/* ===== CAPACIDAD ===== */
+/*seccion de capacidad de negocio */
 
 .size-selector{
     display:flex;
@@ -398,7 +397,7 @@ body {
     color:black;
 }
 
-/* ===== PREVENCION ===== */
+/* seccion de prevencion*/
 
 .save-container{
     text-align:center;
@@ -414,7 +413,7 @@ body {
     font-weight:600;
 }
 
-/* ===== GUARDADO ===== */
+/* guardado exitoso*/
 
 .success-page{
     min-height:80vh;
