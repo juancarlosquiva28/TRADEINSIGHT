@@ -3,69 +3,141 @@
 
 <head>
   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Recomendaciones | TradeScope</title>
+
   <link rel="stylesheet" href="assets/styles/recomStyles.css">
 </head>
 
 <body>
 
-<aside class="sidebar">
+   <aside class="sidebar">
 
-  <div class="main-container">
+        <div class="logo">
+            <img src="assets/images/footerLogo.png" alt="TradeScope">
+        </div>
 
-    <div class="page-header">
-      <a href="home.html">
-        <img src="assets/images/TrianguloNaranja.png" alt="Volver">
-      </a>
+        <nav class="sidebar-menu">
+            <a href="home.html">Inicio</a>
+            <a href="analisisMercados.html">Análisis de Mercados</a>
+            <a href="recomendaciones.html">Recomendaciones</a>
+            <a href="alertas.html">Alertas</a>
+            <a href="#">Favoritos</a>
+            <a href="reportes.html">Reportes</a>
+            <a href="perfil.html" class="active">Perfil</a>
+            <a href="#">Configuración</a>
+            <a href="" class="logout">Cerrar Sesión</a>
+        </nav>
 
-      <h1>Recomendaciones</h1>
-    </div>
+    </aside>
+  
+    <main class="perfil-main">
 
-    <div class="subtitle">
+        <header class="topbar">
+            <div class="topbar-title">
+                <h1>Recomendaciones</h1>
+              
+            </div>
 
-      <p>Todo lo que necesitas para expandir tu negocio</p>
+            <div class="topbar-right">
+                <div class="notification">
+                    🔔
+                    <span class="dot"></span>
+                </div>
 
-      <img src="assets/images/Earth Globe.png" alt="Mundo">
+                <div class="user">
+                    <img src="assets/images/user.png" alt="User">
 
-    </div>
+                    <div class="user-info">
+                        <span class="name">Usuario</span>
+                        <span class="role">Empresa</span>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-    <h2 class="section-title">Resumen</h2>
+        <!-- Contenido -->
 
-    <div class="cards-grid">
+        <section class="recommendations">
 
-      <a href="Guía.html" class="card-option">
-        <img src="assets/images/Rocket.png" alt="">
-        <h3>Guía</h3>
-      </a>
+            <div class="subtitle">
 
-      <a href="AltoPotencial.html" class="card-option">
-        <img src="assets/images/Increase.png" alt="">
-        <h3>Alto Potencial</h3>
-      </a>
+                <p>
+                    Todo lo que necesitas para expandir tu negocio.
+                </p>
 
-      <a href="MercadosEmergentes.html" class="card-option">
-        <img src="assets/images/Positive Dynamic.png" alt="">
-        <h3>Mercados Emergentes</h3>
-      </a>
+                <img src="assets/images/Earth Globe.png" alt="Mundo">
 
-      <a href="MercadosenNiveldeRiesgo.html" class="card-option">
-        <img src="assets/images/Decline.png" alt="">
-        <h3>Mercados en Riesgo</h3>
-      </a>
+            </div>
 
-      <a href="MercadosAlternativos.html" class="card-option">
-        <img src="assets/images/Data Transfer.png" alt="">
-        <h3>Mercados Alternativos</h3>
-      </a>
+            <h2 class="section-title">
 
-      <a href="Capacidad de negocio.html" class="card-option">
-        <img src="assets/images/Small Business.png" alt="">
-        <h3>Capacidad de Negocio</h3>
-      </a>
+                Resumen
 
-    </div>
+            </h2>
 
-  </div>
+            <div class="cards-grid">
+
+                <!-- GUÍA -->
+
+                <a href="Guía.html"
+                   class="card-option guia-card">
+
+                    <img src="assets/images/Rocket.png">
+
+                    <h3>Guía</h3>
+
+                </a>
+
+                <!-- Mercados -->
+
+                <a href="MercadosEmergentes.html"
+                   class="card-option">
+
+                    <img src="assets/images/Positive Dynamic.png">
+
+                    <h3>Mercados Emergentes</h3>
+
+                </a>
+
+                <!-- Riesgo -->
+
+                <a href="MercadosenNiveldeRiesgo.html"
+                   class="card-option">
+
+                    <img src="assets/images/Decline.png">
+
+                    <h3>Mercados en Riesgo</h3>
+
+                </a>
+
+                <!-- Alternativos -->
+
+                <a href="MercadosAlternativos.html"
+                   class="card-option">
+
+                    <img src="assets/images/Data Transfer.png">
+
+                    <h3>Mercados Alternativos</h3>
+
+                </a>
+
+                <!-- Capacidad -->
+
+                <a href="Capacidad de negocio.html"
+                   class="card-option">
+
+                    <img src="assets/images/Small Business.png">
+
+                    <h3>Capacidad de Negocio</h3>
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
 
 </body>
 
