@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuración | TradeScope</title>
+
+    <link rel="stylesheet" href="assets/styles/config.css">
+</head>
+
+<body>
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <img src="assets/images/footerLogo.png" alt="TradeScope">
+        </div>
+
+        <nav class="sidebar-menu">
+            <a href="home.html">Inicio</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="#">Análisis</a>
+            <a href="#">Mercados</a>
+            <a href="recomendaciones.html">Recomendaciones</a>
+            <a href="alertas.html">Alertas</a>
+            <a href="#">Favoritos</a>
+            <a href="#">Reportes</a>
+            <a href="#">Perfil</a>
+            <a href="configuracion.html" class="active">Configuración</a>
+            <a href="#" class="btn-logout">Cerrar Sesión</a>
+        </nav>
+
+    </aside>
+
+    <main class="config-main">
+
+        <!-- Encabezado -->
+
+        <header class="topbar">
+
+            <div class="topbar-title">
+                <h1>Configuración</h1>
+                <p>Administra tu cuenta y personaliza tu experiencia en TradeScope.</p>
+            </div>
+
+            <div class="topbar-right">
+
+                <div class="notification">
+                    🔔
+                    <span class="dot"></span>
+                </div>
+
+                <div class="user">
+
+                    <img src="assets/images/user.png" alt="Usuario">
+
+                    <div class="user-info">
+                        <span class="name">Usuario</span>
+                        <span class="role">Empresa</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <!-- Información personal -->
+
+        <section class="config-card">
+
+            <h2>Información de la cuenta</h2>
+
+            <div class="profile-section">
+
+                <div class="profile-image">
+
+                    <img src="assets/images/user.png" alt="Perfil">
+
+                    <button>Cambiar foto</button>
+
+                </div>
+
+                <div class="profile-form">
+
+                    <div class="input-group">
+                        <label>Nombre completo</label>
+                        <input type="text" value="Juan Carlos Quispe">
+                    </div>
+
+                    <div class="input-group">
+                        <label>Correo electrónico</label>
+                        <input type="email" value="usuario@tradescope.com">
+                    </div>
+
+                    <div class="input-group">
+                        <label>Empresa</label>
+                        <input type="text" value="TradeScope">
+                    </div>
+
+                    <div class="input-group">
+                        <label>País</label>
+
+                        <select>
+                            <option>Perú</option>
+                            <option>Chile</option>
+                            <option>México</option>
+                            <option>Brasil</option>
+                        </select>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="btn-container">
+                <button class="btn-primary">Guardar cambios</button>
+            </div>
+
+        </section>
+
+        <!-- Preferencias -->
+
+        <section class="config-card">
+
+            <h2>Preferencias</h2>
+
+            <div class="preferences">
+
+                <div class="input-group">
+                    <label>Idioma</label>
+
+                    <select>
+                        <option>Español</option>
+                        <option>English</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label>Zona horaria</label>
+
+                    <select>
+                        <option>GMT -5 (Perú)</option>
+                        <option>GMT -3 (Argentina)</option>
+                        <option>GMT -6 (México)</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="checkbox-group">
+
+                <label>
+                    <input type="checkbox" checked>
+                    Recibir notificaciones por correo
+                </label>
+
+                <label>
+                    <input type="checkbox" checked>
+                    Mostrar notificaciones del sistema
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    Recibir recomendaciones personalizadas
+                </label>
+
+            </div>
+
+        </section>
+
+        <!-- Seguridad -->
+
+        <section class="config-card">
+
+            <h2>Seguridad</h2>
+
+            <div class="security-form">
+
+                <div class="input-group">
+                    <label>Contraseña actual</label>
+                    <input type="password">
+                </div>
+
+                <div class="input-group">
+                    <label>Nueva contraseña</label>
+                    <input type="password">
+                </div>
+
+                <div class="input-group">
+                    <label>Confirmar contraseña</label>
+                    <input type="password">
+                </div>
+
+            </div>
+
+            <div class="btn-container">
+                <button class="btn-primary">
+                    Actualizar contraseña
+                </button>
+            </div>
+
+        </section>
+
+        <!-- Apariencia -->
+
+        <section class="config-card">
+
+            <h2>Apariencia</h2>
+
+            <div class="theme-options">
+
+                <div class="theme-card active-theme">
+
+                    <div class="theme-preview light"></div>
+
+                    <h3>Tema claro</h3>
+
+                    <button>Seleccionado</button>
+
+                </div>
+
+                <div class="theme-card">
+
+                    <div class="theme-preview dark"></div>
+
+                    <h3>Tema oscuro</h3>
+
+                    <button>Seleccionar</button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Zona de peligro -->
+
+        <section class="danger-zone">
+
+            <h2>Zona de peligro</h2>
+
+            <p>
+                Estas acciones son permanentes y no podrán deshacerse.
+            </p>
+
+            <div class="danger-buttons">
+
+                <button class="logout-btn">
+                    Cerrar sesión
+                </button>
+
+                <button class="delete-btn">
+                    Eliminar cuenta
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
