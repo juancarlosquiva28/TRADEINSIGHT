@@ -36,11 +36,11 @@ body {
 .sidebar-menu {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 }
 
 .sidebar-menu a {
-    font-size: 17px;
+    font-size: 18px;
     display: block;
     color: white;
     text-decoration: none;
@@ -50,13 +50,14 @@ body {
 }
 
 .sidebar-menu a:hover {
-    color: white;
-    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    background-color: #17316d;
 }
 
 .sidebar-menu a.active {
-    background-color: rgba(255, 255, 255, 0.14);
-    border: 1px solid rgba(255, 255, 255, 0.25);
+    background-color: #1b3675;
+    border: 1px solid #526899;
+    font-weight: 700;
 }
 
 .sidebar-menu .logout {

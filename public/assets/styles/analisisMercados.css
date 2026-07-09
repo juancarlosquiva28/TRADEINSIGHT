@@ -8,8 +8,8 @@ body {
     background: #f3f6fb;
     color: #061b42;
     display: flex;
+    align-items: flex-start;
 }
-
 
 .sidebar {
     width: 240px;
@@ -36,11 +36,11 @@ body {
 .sidebar-menu {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 }
 
 .sidebar-menu a {
-    font-size: 17px;
+    font-size: 18px;
     display: block;
     color: white;
     text-decoration: none;
@@ -50,18 +50,20 @@ body {
 }
 
 .sidebar-menu a:hover {
-    color: white;
+    color: #ffffff;
     background-color: #17316d;
 }
 
 .sidebar-menu a.active {
     background-color: #1b3675;
     border: 1px solid #526899;
+    font-weight: 700;
 }
 
 .sidebar-menu .logout {
     color: #ffffff;
 }
+
 
 .analisis-main {
     flex: 1;
@@ -249,6 +251,7 @@ body {
 
 .campo-busqueda {
     flex: 1;
+    
 }
 
 .campo-busqueda label {

@@ -36,11 +36,11 @@ body {
 .sidebar-menu {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 }
 
 .sidebar-menu a {
-    font-size: 17px;
+    font-size: 18px;
     display: block;
     color: white;
     text-decoration: none;

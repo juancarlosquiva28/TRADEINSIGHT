@@ -36,11 +36,11 @@ body {
 .sidebar-menu {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 }
 
 .sidebar-menu a {
-    font-size: 17px;
+    font-size: 18px;
     display: block;
     color: white;
     text-decoration: none;
@@ -316,7 +316,7 @@ body {
 }
 
 .tendencia-linea {
-    height: 230px;
+    height: 280px;
     background: #f3f6fb;
     border: 1px solid #d0d7e2;
     border-radius: 12px;
@@ -324,20 +324,13 @@ body {
     position: relative;
     display: flex;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
     margin-bottom: 16px;
 }
 
-.tendencia-linea::before {
-    content: "";
-    position: absolute;
-    left: 40px;
-    right: 40px;
-    bottom: 65px;
-    height: 4px;
-    background: #f5821f;
-    transform: rotate(-8deg);
-    transform-origin: left center;
+.tendencia-linea img{
+    width: 480px;
+    height: 250px;
 }
 
 .punto {

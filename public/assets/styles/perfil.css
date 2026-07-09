@@ -35,11 +35,11 @@ body {
 .sidebar-menu {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 }
 
 .sidebar-menu a {
-    font-size: 17px;
+    font-size: 18px;
     display: block;
     color: white;
     text-decoration: none;
@@ -190,28 +190,26 @@ body {
 
 .perfil-opciones {
     flex: 1;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .perfil-opciones a {
+    width: 180px;
     text-decoration: none;
     color: #003c56;
     font-size: 16px;
     font-weight: 700;
-    padding: 14px 12px;
+    padding: 20px 20px;
     border-radius: 10px;
     text-align: center;
     transition: all 0.2s ease;
 }
 
 .perfil-opciones a:hover {
-    background: #f3f6fb;
-}
-
-.perfil-opciones .perfil-opcion-activa {
-    background: #003c56;
+    background: #1e1e8a;
     color: white;
 }
 
@@ -348,9 +346,14 @@ body {
 }
 
 .categoria-activa {
+    border: 2px solid #8ca0af;
     background: #f5821f;
-    color: white;
-    border-color: #f5821f;
+    padding: 14px;
+    border-radius: 8px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: rgb(255, 255, 255);
 }
 
 .experiencia-card {

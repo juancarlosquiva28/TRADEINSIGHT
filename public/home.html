@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -9,154 +9,275 @@
 </head>
 
 <body>
+    <aside class="sidebar">
 
-    <main class="dashboard">
+        <div class="logo">
+            <img src="assets/images/footerLogo.png" alt="TradeScope">
+        </div>
 
-        <aside class="sidebar">
+        <nav class="sidebar-menu">
+            <a href="home.html" class="active">Inicio</a>
+            <a href="analisisMercados.html">Análisis de Mercados</a>
+            <a href="recomendaciones.html">Recomendaciones</a>
+            <a href="alertas.html">Alertas</a>
+            <a href="reportes.html">Reportes</a>
+            <a href="perfil.html">Perfil</a>
+            <a href="config.html">Configuración</a>
+            <a href="index.html" class="logout">Cerrar Sesión</a>
+        </nav>
 
-            <div class="logo">
-                <img src="assets/images/footerLogo.png" alt="TradeScope">
+    </aside>
+
+    <main class="home-main">
+
+        <header class="topbar">
+
+            <div class="topbar-title">
+                <h1>Inicio</h1>
+                <p>Resumen general de oportunidades, mercados, riesgos y reportes comerciales.</p>
             </div>
 
-            <nav class="sidebar-menu">
-                <a href="home.html" class="active">Inicio</a>
-                <a href="dashboard.html">Dashboard</a>
-                <a href="#">Análisis</a>
-                <a href="#">Mercados</a>
-                <a href="recomendaciones.html">Recomendaciones</a>
-                <a href="alertas.html">Alertas</a>
-                <a href="#">Favoritos</a>
-                <a href="#">Reportes</a>
-                <a href="#">Perfil</a>
-                <a href="#">Configuración</a>
-                <a href="#" class="btn-logout">Cerrar Sesión</a>
-            </nav>
+            <div class="topbar-right">
 
-        </aside>
+                <div class="notification">
+                    🔔
+                    <span class="dot"></span>
+                </div>
 
-        <section class="content">
+                <div class="user">
+                    <img src="assets/images/user.png" alt="User">
 
-            <header class="topbar">
-
-                <h1>Resumen general</h1>
-
-                <div class="topbar-right">
-
-                    <div class="notification">
-                        🔔
-                        <span class="dot"></span>
+                    <div class="user-info">
+                        <span class="name">Usuario</span>
+                        <span class="role">Empresa</span>
                     </div>
+                </div>
 
-                    <div class="user">
-                        <img src="assets/images/user.png" alt="User">
-                        <div class="user-info">
-                            <span class="name">Usuario</span>
-                            <span class="role">Empresa</span>
+            </div>
+
+        </header>
+
+        <section class="home-content">
+
+            <section class="resumen-home">
+
+                <div class="resumen-card">
+                    <h3>Oportunidades</h3>
+                    <strong>1,248</strong>
+                    <p class="positivo">+12.5% vs. mes anterior</p>
+                </div>
+
+                <div class="resumen-card">
+                    <h3>Mercados analizados</h3>
+                    <strong>85</strong>
+                    <p class="positivo">+8.1% vs. mes anterior</p>
+                </div>
+
+                <div class="resumen-card">
+                    <h3>Productos</h3>
+                    <strong>642</strong>
+                    <p class="positivo">+6.3% vs. mes anterior</p>
+                </div>
+
+                <div class="resumen-card">
+                    <h3>Alertas de riesgo</h3>
+                    <strong>23</strong>
+                    <p class="negativo">+15.2% vs. mes anterior</p>
+                </div>
+
+            </section>
+
+            <section class="metricas-home">
+
+                <div class="card metrica-card">
+                    <img src="assets/images/mercados_activos.png" alt="Mercados activos">
+
+                    <div>
+                        <p>Mercados activos</p>
+                        <h2>12</h2>
+                        <span>+2 vs. mes anterior</span>
+                    </div>
+                </div>
+
+                <div class="card metrica-card">
+                    <img src="assets/images/oportunidades.png" alt="Oportunidades">
+
+                    <div>
+                        <p>Oportunidades nuevas</p>
+                        <h2>24</h2>
+                        <span>+4 vs. mes anterior</span>
+                    </div>
+                </div>
+
+                <div class="card metrica-card">
+                    <img src="assets/images/dinero.png" alt="Costos estimados">
+
+                    <div>
+                        <p>Costos estimados</p>
+                        <h2>S/ 12 000</h2>
+                        <span>+8% vs. mes anterior</span>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="dashboard-layout">
+
+                <section class="card panel-mapa">
+                    <div class="section-header">
+                        <div>
+                            <h2>Oportunidades por región</h2>
+                            <p>Distribución visual de oportunidades comerciales detectadas.</p>
                         </div>
                     </div>
 
+                    <img src="assets/images/met1.png" alt="Mapa de oportunidades" class="imagen-panel">
+                </section>
+
+                <section class="card panel-paises">
+                    <div class="section-header">
+                        <div>
+                            <h2>Países con mejor potencial</h2>
+                            <p>Ranking de mercados destacados para análisis comercial.</p>
+                        </div>
+                    </div>
+
+                    <div class="pais-potencial">
+                        <span>Estados Unidos</span>
+                        <div class="barra-pais">
+                            <div class="barra-progreso pais-usa"></div>
+                        </div>
+                        <strong>87%</strong>
+                    </div>
+
+                    <div class="pais-potencial">
+                        <span>Alemania</span>
+                        <div class="barra-pais">
+                            <div class="barra-progreso pais-alemania"></div>
+                        </div>
+                        <strong>75%</strong>
+                    </div>
+
+                    <div class="pais-potencial">
+                        <span>Brasil</span>
+                        <div class="barra-pais">
+                            <div class="barra-progreso pais-brasil"></div>
+                        </div>
+                        <strong>72%</strong>
+                    </div>
+
+                    <div class="pais-potencial">
+                        <span>México</span>
+                        <div class="barra-pais">
+                            <div class="barra-progreso pais-mexico"></div>
+                        </div>
+                        <strong>68%</strong>
+                    </div>
+
+                    <div class="pais-potencial">
+                        <span>China</span>
+                        <div class="barra-pais">
+                            <div class="barra-progreso pais-china"></div>
+                        </div>
+                        <strong>65%</strong>
+                    </div>
+                </section>
+
+            </section>
+
+            <section class="dashboard-layout">
+
+                <section class="card panel-tendencias">
+                    <div class="section-header">
+                        <div>
+                            <h2>Tendencia de oportunidades</h2>
+                            <p>Evolución de oportunidades comerciales durante los últimos meses.</p>
+                        </div>
+
+                        <a href="tendencias.html" class="btn-secundario">Ver tendencias</a>
+                    </div>
+
+                    <img src="assets/images/met3.png" alt="Tendencias de oportunidades" class="imagen-panel">
+                </section>
+
+                <section class="card panel-productos">
+                    <div class="section-header">
+                        <div>
+                            <h2>Productos con mayor demanda</h2>
+                            <p>Productos destacados por interés comercial.</p>
+                        </div>
+                    </div>
+
+                    <img src="assets/images/met4.png" alt="Productos con mayor demanda" class="imagen-panel">
+                </section>
+
+            </section>
+
+            <section class="dashboard-layout">
+
+                <section class="card riesgos-section">
+                    <div class="section-header">
+                        <div>
+                            <h2>Indicadores de riesgo</h2>
+                            <p>Factores principales que pueden afectar las oportunidades comerciales.</p>
+                        </div>
+
+                        <a href="alertas.html" class="btn-secundario">Ver alertas</a>
+                    </div>
+
+                    <div class="riesgos-lista">
+
+                        <div class="riesgo-card">
+                            <p>Riesgo político</p>
+                            <img src="assets/images/escudo-medio.png" alt="Riesgo político">
+                            <strong>Medio</strong>
+                        </div>
+
+                        <div class="riesgo-card">
+                            <p>Riesgo económico</p>
+                            <img src="assets/images/escudo-alto.png" alt="Riesgo económico">
+                            <strong>Alto</strong>
+                        </div>
+
+                        <div class="riesgo-card">
+                            <p>Riesgo comercial</p>
+                            <img src="assets/images/escudo-alto.png" alt="Riesgo comercial">
+                            <strong>Alto</strong>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section class="card costos-section">
+                    <div class="section-header">
+                        <div>
+                            <h2>Costos por categoría</h2>
+                            <p>Vista rápida de los costos principales del análisis.</p>
+                        </div>
+                    </div>
+
+                    <img src="assets/images/grafico-costo.png" alt="Gráfico de costos" class="imagen-panel">
+                </section>
+
+            </section>
+
+            <section class="card acciones-finales">
+
+                <div>
+                    <h2>Acciones rápidas</h2>
+                    <p>Continúa con el análisis o revisa reportes generados.</p>
                 </div>
 
-            </header>
-
-            <div class="stats">
-                <div class="card">
-                    <h3>Oportunidades</h3>
-                    <span>1,248</span>
-                    <p class="positive">
-                        <span class="sign">+</span>
-                        <span class="value">12.5</span>
-                        <span class="percent">%</span>
-                        <span class="text">vs. mes anterior</span>
-                    </p>
+                <div class="botones-finales">
+                    <a href="analisisMercados.html" class="btn-principal">Iniciar análisis</a>
+                    <a href="comparaciones.html" class="btn-secundario">Comparar mercados</a>
+                    <a href="reportes.html" class="btn-secundario">Ver reportes</a>
                 </div>
 
-                <div class="card">
-                    <h3>Mercados analizados</h3>
-                    <span>85</span>
-                    <p class="positive">
-                        <span class="sign">+</span>
-                        <span class="value">8.1</span>
-                        <span class="percent">%</span>
-                        <span class="text">vs. mes anterior</span>
-                    </p>
-                </div>
-
-                <div class="card">
-                    <h3>Productos</h3>
-                    <span>642</span>
-                    <p class="positive">
-                        <span class="sign">+</span>
-                        <span class="value">6.3</span>
-                        <span class="percent">%</span>
-                        <span class="text">vs. mes anterior</span>
-                    </p>
-                </div>
-
-                <div class="card">
-                    <h3>Alertas de riesgo</h3>
-                    <span>23</span>
-                    <p class="negative">
-                        <span class="sign">+</span>
-                        <span class="value">15.2</span>
-                        <span class="percent">%</span>
-                        <span class="text">vs. mes anterior</span>
-                    </p>
-                </div>
-
-            </div>
-
-            <div class="dashboard-grid">
-
-                <div class="panel panel-large">
-                    <h2>Oportunidades por región</h2>
-                    <img src="assets/images/met1.png" alt="Mapa" class="oportunidades">
-                </div>
-
-                <div class="panel panel-small">
-                    <h2>Países con mejor potencial</h2>
-                    <img src="assets/images/met2.png" alt="Top países" class="topPaises">
-                </div>
-
-                <div class="panel panel-large">
-                    <h2>Tendencia de oportunidades</h2>
-                    <img src="assets/images/met3.png" alt="Tendencias" class="tendencias">
-                </div>
-
-                <div class="panel panel-small">
-                    <h2>Productos con mayor demanda</h2>
-                    <img src="assets/images/met4.png" alt="Productos" class="productos">
-                </div>
-
-            </div>
+            </section>
 
         </section>
 
     </main>
-
-    <div id="logoutModal" class="modal">
-
-        <div class="modal-content">
-
-            <span class="close-btn">&times;</span>
-
-            <h2>¿Estás seguro que quieres cerrar sesión?</h2>
-
-            <div class="modal-actions">
-                <button id="cancelLogout" class="btn-cancel">
-                    Cancelar
-                </button>
-
-                <button id="confirmLogout" class="btn-submit">
-                    Sí, salir
-                </button>
-            </div>
-
-        </div>
-    </div>
-
-    <script src="assets/scripts/logoutModel.js" defer></script>
-
 </body>
-
 </html>
